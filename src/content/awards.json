@@ -1,0 +1,13 @@
+[
+    {
+        "category": "Honors", "list": [
+            {"date": "2022.10", "content": "Best Paper Runner-Up Award (<u>Top 2 out of all 209 submissions</u>), ACM SenSys 2022"},
+            {"date": "2021.04", "content": "Outstanding university graduate (<u>Top 3% in this year</u>), Sichuan Government | 四川省优秀毕业生"},
+            {"date": "2020.12", "content": "UESTC Outstanding Students (<u>Top 10 out of all 4446 students</u>), UESTC | 成电杰出学生"},
+            {"date": "2020.09", "content": "ACM Outstanding Students, ACM Chengdu Chapter | ACM优秀大学生"},
+            {"date": "2020.12", "content": "National Scholarship (<u>Top 1 out of all 127 students</u>), Ministry of Education | 国家奖学金"},
+            {"date": "2019.12", "content": "National Scholarship (<u>Top 1 out of all 128 students</u>), Ministry of Education | 国家奖学金"},
+            {"date": "2018.12", "content": "National Scholarship (<u>Top 1 out of all 140 students</u>), Ministry of Education | 国家奖学金"}
+        ]
+    }
+]
