@@ -10,6 +10,6 @@ defineProps({
 <template>
   <a class="badge badge-video" v-if="videoUrl" target="_blank" :href="videoUrl">
     <i class="fa fa-video-camera" aria-hidden="true"></i>
-    video
+    Slides
   </a>
 </template>

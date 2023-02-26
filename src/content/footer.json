@@ -1,11 +1,3 @@
 {
-    "name": "Yimiao Sun (孙一淼)",
-    "description": "I'm a Ph.D. student at Tsinghua University, and now a member of [The System and Ubiquitous Networking Group (SUN)](http://tns.thss.tsinghua.edu.cn/sun/) led by [Prof. Yuan He](http://www.greenorbs.org/people/heyuan). <br>My current research interests include Wireless Sensing and RF Computing.<br>Contact Me: <a style = \"color: black\">sym21@mails.tsinghua.edu.cn; &nbsp; sun_yimiao@foxmail.com</a>",
-    "contact": {
-        "Github": {"icon": "fa fa-github", "url": "https://github.com/sunym21"},
-        "Google Scholar": {"icon": "ai ai-google-scholar", "url": "https://scholar.google.com/citations?user=Pu6D_lQAAAAJ&hl=en"},
-        "ResearchGate": {"icon": "ai ai-researchgate", "url": "https://www.researchgate.net/profile/Yimiao-Sun-2/research"},
-        "ORCID": {"icon": "ai ai-orcid", "url": "https://orcid.org/0000-0001-9384-5915"},
-        "Email": {"icon": "fa fa-envelope", "url": "sym21@mails.tsinghua.edu.cn"}
-    }
+    "description": "<b>Friend Link</b>: [Tsinghua University](https://www.tsinghua.edu.cn/); &nbsp; [The System and Ubiquitous Networking Group (SUN)](http://tns.thss.tsinghua.edu.cn/sun/); &nbsp; [Prof. Yuan He](http://www.greenorbs.org/people/heyuan)."
 }

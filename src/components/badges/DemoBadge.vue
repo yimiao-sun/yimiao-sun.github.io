@@ -10,6 +10,6 @@ defineProps({
 <template>
   <a class="badge badge-demo" v-if="demoUrl" target="_blank" :href="demoUrl">
     <i class="fa fa-gamepad" aria-hidden="true"></i>
-    demo
+    Demo
   </a>
 </template>
