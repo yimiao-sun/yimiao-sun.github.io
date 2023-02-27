@@ -118,15 +118,15 @@ function copyToClipboard(text, pubId, cslTemplateType) {
       <p class="pub note" v-if="pub.note">{{ pub.note }}</p>
       <div>
         <div>
-          <a class="badge badge-abs" @click="showFlag[pub.entry.id].abs = !showFlag[pub.entry.id].abs">Intrduction</a>
+          <a class="badge badge-abs" @click="showFlag[pub.entry.id].abs = !showFlag[pub.entry.id].abs">Introduction</a>
           <a class="badge badge-bib" @click="showFlag[pub.entry.id].bib = !showFlag[pub.entry.id].bib">BibTex</a>
-          <SlidesBadge :slidesUrl="pub.resources.slides" />
-          <VideoBadge :videoUrl="pub.resources.video" />
+          <SlidesBadge :slidesUrl="pub.resources.pdf" />
+          <VideoBadge :videoUrl="pub.resources.slides" />
           <CodeBadge :codeUrl="pub.resources.code" />
           <DemoBadge :demoUrl="pub.resources.demo" />
         </div>
         
-        <p class="text-block" v-if="showFlag[pub.entry.id].abs">{{ pub.entry.abstract }} <img :src=pub.figure  width="740" />      </p>
+        <p class="text-block" v-if="showFlag[pub.entry.id].abs">{{ pub.abstract }} <img :src=pub.figure  width="740" />      </p>
         
         <div class="text-block" v-if="showFlag[pub.entry.id].bib">  
           <button class="bib" @click.prevent="copyToClipboard(pub.bibtex, pub.entry.id, 'BibTeX')">Copy BibTeX</button>
