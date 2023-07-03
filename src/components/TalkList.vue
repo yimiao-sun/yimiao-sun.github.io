@@ -13,7 +13,7 @@ const idPrefix = "talk"
 </script>
 
 <template>
-  <h2>📺 Talks</h2>
+  <h2>Talks</h2>
   <div class="row items-align-top" v-for="(talk, index) in talkArr" :key="index">
     <label class="col" :for="`${idPrefix}-${index}`">{{ talk.date }}</label>
     <p class="col flex-start tight-list pub" :id="`${idPrefix}-${index}`">

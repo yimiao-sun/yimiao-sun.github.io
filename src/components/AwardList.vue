@@ -12,7 +12,7 @@ const idPrefix = "award"
 </script>
 
 <template>
-  <h2 style="font-size: 20pt">🏆 Awards & Honors</h2>
+  <h2 style="font-size: 20pt">Awards & Honors</h2>
   <div v-for="(awardList, listIdx) in awardArr" :key="listIdx">
     <div class="row items-align-top" v-for="(award, index) in awardList.list">
       <label class="col" :for="`${idPrefix}-${listIdx}-${index}`" >{{ award.date }}</label>
