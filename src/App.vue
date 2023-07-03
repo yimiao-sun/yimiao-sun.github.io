@@ -2,10 +2,11 @@
 import Bio from './components/Bio.vue'
 import NewsList from './components/NewsList.vue'
 import EducationList from './components/EducationList.vue'
-import PublicationList from './components/PublicationList.vue'
+import ConfPub from './components/ConfPub.vue'
+import JourPub from './components/JourPub.vue'
 import AwardList from './components/AwardList.vue'
-import SoftwareList from './components/SoftwareList.vue'
-import TalkList from './components/TalkList.vue'
+// import SoftwareList from './components/SoftwareList.vue'
+// import TalkList from './components/TalkList.vue'
 import Footer from './components/Footer.vue'
 </script>
 
@@ -20,7 +21,9 @@ import Footer from './components/Footer.vue'
     <hr>
     <EducationList />
     <hr>
-    <PublicationList />
+    <ConfPub />
+    <hr>
+    <JourPub />
     <hr>
     <AwardList />
     <hr>

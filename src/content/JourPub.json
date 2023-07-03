@@ -1,0 +1,18 @@
+[
+    {
+        "bibtex": "@inproceedings{yuan2023acoustic,\ntitle = {Acoustic Localization System for Precise Drone Landing},\nauthor = {He, Yuan and Wang, Weiguo and Mottola, Luca and Li, Shuai and Sun, Yimiao and Li, Jinming and Jing, Hua and Wang, Ting and Wang, Yulei},\njournal = {IEEE Transactions on Mobile Computing},\nyear = {2023},\nvolume = {},\nnumber = {},\npages = {1-18},\ndoi = {10.1109/TMC.2023.3288299}\n}\n",
+        "authors": {
+            "boldAuthors": ["Yimiao Sun"],
+            "correspondingAuthors": ["Weiguo Wang"],
+            "equalContributionAuthors": null
+        },
+        "note": "",
+        "resources": {
+            "pdf": "./files/PDF/MicNest_Jour.pdf",
+            "slides": null,
+            "code": null,
+            "demo": null
+        },
+        "abstract": "We present MicNest : an acoustic localization system enabling precise drone landing. In MicNest , multiple microphones are deployed on a landing platform in carefully devised configurations. The drone carries a speaker transmitting purposefully-designed acoustic pulses. The drone may be localized as long as the pulses are correctly detected. Doing so is challenging: i) because of limited transmission power, propagation attenuation, background noise, and propeller interference, the Signal-to-Noise Ratio (SNR) of received pulses is intrinsically low; ii) the pulses experience non-linear Doppler distortion due to the physical drone dynamics; iii) as location information is used during landing, the processing latency must be reduced to effectively feed the flight control loop. To tackle these issues, we design a novel pulse detector, Matched Filter Tree (MFT), whose idea is to convert pulse detection to a tree search problem. We further present three practical methods to accelerate tree search jointly. Our experiments show that MicNest can localize a drone 120 m away with 0.53% relative localization error at 20 Hz location update frequency. For navigating drone landing, MicNest can achieve a success rate of 94 %. The average landing error (distance between landing point and target point) is only 4.3 cm."
+    }
+]
