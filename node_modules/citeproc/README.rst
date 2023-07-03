@@ -8,8 +8,8 @@ A JavaScript implementation of the Citation Style Language
 :Authors: Frank Bennett
 
 
-.. image:: https://travis-ci.org/Juris-M/citeproc-js.svg?branch=master
-   :target: https://travis-ci.org/Juris-M/citeproc-js
+.. image:: https://github.com/Juris-M/citeproc-js/actions/workflows/ci.yml/badge.svg
+   :target: https://github.com/Juris-M/citeproc-js/actions/workflows/ci.yml
 
 -----
 About

@@ -1,0 +1,149 @@
+/* @import "https://cdn.simplecss.org/simple.min.css" */
+@import "https://unpkg.com/boltcss/bolt.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css";
+@import "./grid.css";
+@import "./position.css";
+
+body {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+header {
+    margin-top: 40px;
+    font-size: 1rem;
+}
+
+footer {
+    padding-top: 2rem;
+}
+
+label {
+    line-height: 1.6rem;
+    margin-right: 1.0rem;
+}
+
+h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+ul.no-bullet {
+    list-style: none;
+}
+
+li {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+i {
+    margin-right: 5px;
+}
+
+p.pub {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p.note {
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.tight-list p {
+    margin-top: 0;
+    margin-bottom: 0.3rem;
+}
+
+.text-block {
+    display: inline-block;
+    background-color: #f1f1f1;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid darkgray;
+    white-space: pre-wrap;
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    margin-right: 0.25rem;
+    text-decoration: none;
+}
+
+.badge:hover {
+    cursor: pointer;
+}
+
+.badge-abs {
+    color: white;
+    background-color: #29abe0;
+}
+
+.badge-abs:hover {
+    background-color: #438bb7;
+}
+
+.badge-bib {
+    color: #222529;
+    background-color: #dfe2e5;
+}
+
+.badge-bib:hover {
+    background-color: #c3c9cf;
+}
+
+.badge-slides {
+    color: white;
+    background-color: green;
+}
+
+.badge-slides:hover {
+    background-color: rgba(0, 128, 0, 0.8);
+}
+
+.badge-code {
+    color: white;
+    background-color: black;
+}
+
+.badge-code:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.badge-video {
+    color: #fcf0e4;
+    background-color: #d88d54;
+}
+
+.badge-video:hover {
+    background-color: #d88d54d4;
+}
+
+.badge-demo {
+    color: white;
+    background-color: crimson;
+}
+
+.badge-demo:hover {
+    background-color: rgba(220, 20, 60, 0.8);
+}
+
+button.bib {
+    background-color: white;
+    font-size: 75%;
+    margin-right: 0.5rem;
+    padding: 3px 5px;
+}
