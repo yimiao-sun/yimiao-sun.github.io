@@ -104,7 +104,7 @@ function copyToClipboard(text, pubId, cslTemplateType) {
 </script>
 
 <template>
-  <h2  style="font-size: 20pt">Conference papers</h2>
+  <h2  style="font-size: 20pt">Publications</h2>
   <!-- <p>
     <b>bold</b>: myself.
     <sup>*</sup>: corresponding author(s).
@@ -112,7 +112,7 @@ function copyToClipboard(text, pubId, cslTemplateType) {
   </p> -->
   <ul class="pub-list" reversed>
     <li v-for="pub in pubArr" :key="pub.entry.id">
-      <a style="font-size:15pt"  :href="pub.entry.URL" target="_blank">{{ pub.entry.title}}</a><br>
+      <a style="font-size: 15pt" :href="pub.entry.URL" target="_blank">{{ pub.entry.title }}</a><br>
       <p class="pub" v-html="pub.entry.authors"></p>
       <p class="pub"><em>{{ pub.entry["container-title"] }}</em>. {{ pub.entry.issued["date-parts"][0][0] }}.</p>
       <p class="pub note" v-if="pub.note">{{ pub.note }}</p>
