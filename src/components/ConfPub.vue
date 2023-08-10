@@ -104,7 +104,7 @@ function copyToClipboard(text, pubId, cslTemplateType) {
 </script>
 
 <template>
-  <h2  style="font-size: 20pt">Publications</h2>
+  <h2  style="font-size: 20pt">Conference Articles</h2>
   <!-- <p>
     <b>bold</b>: myself.
     <sup>*</sup>: corresponding author(s).
