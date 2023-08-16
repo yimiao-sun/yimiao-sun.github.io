@@ -118,7 +118,7 @@ function copyToClipboard(text, pubId, cslTemplateType) {
       <p class="pub note" v-if="pub.note">{{ pub.note }}</p>
       <div>
         <div>
-          <a class="badge badge-abs" @click="showFlag[pub.entry.id].abs = !showFlag[pub.entry.id].abs">Introduction</a>
+          <a class="badge badge-abs" @click="showFlag[pub.entry.id].abs = !showFlag[pub.entry.id].abs">Abstract</a>
           <a class="badge badge-bib" @click="showFlag[pub.entry.id].bib = !showFlag[pub.entry.id].bib">BibTex</a>
           <SlidesBadge :slidesUrl="pub.resources.pdf" />
           <VideoBadge :videoUrl="pub.resources.slides" />
