@@ -105,6 +105,7 @@ p.note {
     background-color: #c3c9cf;
 }
 
+
 .badge-slides {
     color: white;
     background-color: green;
@@ -139,6 +140,24 @@ p.note {
 
 .badge-demo:hover {
     background-color: rgba(220, 20, 60, 0.8);
+}
+
+.badge-award {
+    color: white;
+    background-color: crimson;
+}
+
+.badge-award:hover {
+    background-color: rgba(220, 20, 60, 0.8);
+}
+
+.badge-home:hover {
+    background-color: rgba(29, 29, 29, 0.905);
+}
+
+.badge-home {
+    color: white;
+    background-color: rgba(29, 29, 29, 0.905);
 }
 
 button.bib {

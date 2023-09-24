@@ -1,10 +1,34 @@
 [
     {
-        "bibtex": "@inproceedings{yimiao2023aim,\ntitle = {AIM: Acoustic Inertial Measurement for Indoor Drone Localization and Tracking},\nauthor = {Sun, Yimiao and Wang, Weiguo and Mottola, Luca and Wang, Ruijin and He, Yuan},\nbooktitle = {Proceedings of the 20th Conference on Embedded Networked Sensor Systems, (Sensys'22)},\npublisher = {ACM},\nlocation = {Boston, Massachusetts},\nyear = {2022},\ndoi = {10.1145/3560905.3568499}\n}\n",
+        "bibtex": "@inproceedings{weiguo2023metaspeaker,\ntitle = {Meta-Speaker: Acoustic Source Projection by Exploiting Air Nonlinearity},\nauthor = {Wang, Weiguo and He, Yuan and Jin, Meng and Sun, Yimiao and Guo, Xiuzhen},\nbooktitle = {Proceedings of the 29th International Conference on Mobile Computing and Networking (MobiCom)},\npublisher = {ACM},\nlocation   = {Madrid, Spain},\nyear = {2023},\ndoi = {10.1145/3570361.3613279}\n}\n",
         "authors": {
-            "boldAuthors": ["Yimiao Sun"],
-            "correspondingAuthors": ["Yuan He"],
-            "equalContributionAuthors": null
+            "boldAuthors": ["Yimiao Sun"]
+        },
+        "note": "",
+        "resources": {
+            "pdf": "./files/PDF/MetaSpeaker_Conf.pdf",
+            "slides": null
+        },
+        "abstract": "This paper proposes Meta-Speaker, an innovative speaker capable of projecting audible sources into the air with a high level of manipulability. Unlike traditional speakers that emit sound waves in all directions, Meta-Speaker can manipulate the granularity of the audible region, down to a single point, and can manipulate the location of the source. Additionally, the source projected by Meta-Speaker is a physical presence in space, allowing both humans and machines to perceive it with spatial awareness. Meta-Speaker achieves this by leveraging the fact that air is a nonlinear medium, which enables the reproduction of audible sources from ultrasounds. Meta-Speaker comprises two distributed ultrasonic arrays, each transmitting a narrow ultrasonic beam. The audible source can be reproduced at the intersection of the beams. We present a comprehensive profiling of Meta-Speaker to validate the high manipulability it offers. We prototype Meta-Speaker and demonstrate its potential through three applications: anchor-free localization with a median error of 0.13 m, location-aware communication with a throughput of 1.28 Kbps, and acoustic augmented reality where users can perceive source direction with a mean error of 9.8 degrees."
+    },
+    {
+        "bibtex": "@inproceedings{jia2023mmhawkeve,\ntitle = {mmHawkeye: Passive UAV Detection with a COTS mmWave Radar},\nauthor = {Zhang, Jia and Na, Xin and Xi, Rui and Sun, Yimiao and He, Yuan},\nbooktitle = {Proceedings of the 20th International Conference on Sensing, Communication, and Networking (SECON)},\npublisher = {IEEE},\nlocation   = {Madrid, Spain},\nyear = {2023},\ndoi = {}\n}\n",
+        "authors": {
+            "boldAuthors": ["Yimiao Sun"]
+        },
+        "note": "",
+        "resources": {
+            "pdf": "./files/PDF/mmHawkeye_Conf.pdf",
+            "slides": null,
+            "code": null,
+            "demo": null
+        },
+        "abstract": "Small Unmanned Aerial Vehicles (UAVs) are becoming potential threats to security-sensitive areas and personal  privacy.  A UAV can shoot photos at height, but how to detect such  an uninvited intruder is an open problem.  This paper presents  mmHawkeye, a passive approach for UAV detection with a COTS  millimeter wave (mmWave) radar.  mmHawkeye doesn’t require  prior knowledge of the type, motions, and flight trajectory of  the UAV, while exploiting the signal feature induced by the UAV’s periodic micro-motion (PMM) for long-range accurate  detection.  The design is therefore effective in dealing with lowSNR and uncertain reflected signals from the UAV.  mmHawkeye  can further track the UAV’s position with dynamic programming  and particle filtering, and identify it with a Long Short-Term Memory (LSTM) based detector.  We implement mmHawkeye on  a commercial mmWave radar and evaluate its performance under  varied settings.  The experimental results show that mmHawkeye  has a detection accuracy of 95.8% and can realize detection at  a range up to 80m."
+    },    
+    {
+        "bibtex": "@inproceedings{yimiao2023aim,\ntitle = {AIM: Acoustic Inertial Measurement for Indoor Drone Localization and Tracking},\nauthor = {Sun, Yimiao and Wang, Weiguo and Mottola, Luca and Wang, Ruijin and He, Yuan},\nbooktitle = {Proceedings of the 20th Conference on Embedded Networked Sensor Systems (SenSys)},\npublisher = {ACM},\nlocation = {Boston, Massachusetts},\nyear = {2022},\ndoi = {10.1145/3560905.3568499}\n}\n",
+        "authors": {
+            "boldAuthors": ["Yimiao Sun"]
         },
         "note": "",
         "resources": {
@@ -16,52 +40,19 @@
         "abstract": "We present Acoustic Inertial Measurement (AIM), a one-of-a-kind technique for indoor drone localization and tracking. Indoor drone localization and tracking are arguably a crucial, yet unsolved challenge: in GPS-denied environments, existing approaches enjoy limited applicability, especially in Non-Line of Sight (NLoS), require extensive environment instrumentation, or demand considerable hardware/software changes on drones. In contrast, AIM exploits the acoustic characteristics of the drones to estimate their location and derive their motion, even in NLoS settings. We tame location estimation errors using a dedicated Kalman filter and the Interquartile Range rule (IQR). We implement AIM using an off-the-shelf microphone array and evaluate its performance with a commercial drone under varied settings. Results indicate that the mean localization error of AIM is 46% lower than commercial UWB-based systems in complex indoor scenarios, where state-of-the-art infrared systems would not even work because of NLoS settings. We further demonstrate that AIM can be extended to support indoor spaces with arbitrary ranges and layouts without loss of accuracy by deploying distributed microphone arrays."
     },
     {
-        "bibtex": "@inproceedings{weiguo2023micnest,\ntitle = {MicNest: Long-Range Instant Acoustic Localization of Drones in Precise Landing},\nauthor = {Wang, Weiguo and Mottola, Luca and He, Yuan and Li, Jinming and Sun, Yimiao and Li, Shuai and Jing, Hua and Wang, Yulei},\nbooktitle = {Proceedings of the 20th Conference on Embedded Networked Sensor Systems, (Sensys'22)},\npublisher = {ACM},\nlocation   = {Boston, Massachusetts},\nyear = {2022},\ndoi = {10.1145/3560905.3568515}\n}\n",
+        "bibtex": "@inproceedings{weiguo2023micnest,\ntitle = {MicNest: Long-Range Instant Acoustic Localization of Drones in Precise Landing},\nauthor = {Wang, Weiguo and Mottola, Luca and He, Yuan and Li, Jinming and Sun, Yimiao and Li, Shuai and Jing, Hua and Wang, Yulei},\nbooktitle = {Proceedings of the 20th Conference on Embedded Networked Sensor Systems (SenSys)},\npublisher = {ACM},\nlocation   = {Boston, Massachusetts},\nyear = {2022},\ndoi = {10.1145/3560905.3568515}\n}\n",
         "authors": {
-            "boldAuthors": ["Yimiao Sun"],
-            "correspondingAuthors": ["Yuan He"],
-            "equalContributionAuthors": null
+            "boldAuthors": ["Yimiao Sun"]
         },
         "note": "",
         "resources": {
             "pdf": "./files/PDF/MicNest_Conf.pdf",
             "slides": "./files/Slides/MicNest.pdf",
             "code": null,
-            "demo": "https://micnest.github.io/"
+            "home": "https://micnest.github.io/",
+            "award": "https://sensys.acm.org/2022/award/"
         },
         "abstract": "We present MicNest: an acoustic localization system enabling precise landing of aerial drones. Drone landing is a crucial step in a drone's operation, especially as high-bandwidth wireless networks, such as 5G, enable beyond-line-of-sight operation in a shared airspace and applications such as instant asset delivery with drones gain traction. In MicNest, multiple microphones are deployed on a landing platform in carefully devised configurations. The drone carries a speaker transmitting purposefully-designed acoustic pulses. The drone may be localized as long as the pulses are correctly detected. Doing so is challenging: i) because of limited transmission power, propagation attenuation, background noise, and propeller interference, the Signal-to-Noise Ratio (SNR) of received pulses is intrinsically low; ii) the pulses experience non-linear Doppler distortion due to the physical drone dynamics while airborne; iii) as location information is to be used during landing, the processing latency must be reduced to effectively feed the flight control loop. To tackle these issues, we design a novel pulse detector, Matched Filter Tree (MFT), whose idea is to convert pulse detection to a tree search problem. We further present three practical methods to accelerate tree search jointly. Our real-world experiments show that MicNest is able to localize a drone 120 m away with 0.53% relative localization error at 20 Hz location update frequency."
-    },
-    {
-        "bibtex": "@inproceedings{weiguo2023metaspeaker,\ntitle = {Meta-Speaker: Acoustic Source Projection by Exploiting Air Nonlinearity},\nauthor = {Wang, Weiguo and He, Yuan and Jin, Meng and Sun, Yimiao and Guo, Xiuzhen},\nbooktitle = {Proceedings of the 29th International Conference on Mobile Computing and Networking, (MobiCom'23)},\npublisher = {ACM},\nlocation   = {Madrid, Spain},\nyear = {2023},\ndoi = {10.1145/3570361.3613279}\n}\n",
-        "authors": {
-            "boldAuthors": ["Yimiao Sun"],
-            "correspondingAuthors": ["Yuan He"],
-            "equalContributionAuthors": null
-        },
-        "note": "",
-        "resources": {
-            "pdf": "./files/PDF/MetaSpeaker_Conf.pdf",
-            "slides": null,
-            "code": null,
-            "demo": null
-        },
-        "abstract": "This paper proposes Meta-Speaker, an innovative speaker capable of projecting audible sources into the air with a high level of manipulability. Unlike traditional speakers that emit sound waves in all directions, Meta-Speaker can manipulate the granularity of the audible region, down to a single point, and can manipulate the location of the source. Additionally, the source projected by Meta-Speaker is a physical presence in space, allowing both humans and machines to perceive it with spatial awareness. Meta-Speaker achieves this by leveraging the fact that air is a nonlinear medium, which enables the reproduction of audible sources from ultrasounds. Meta-Speaker comprises two distributed ultrasonic arrays, each transmitting a narrow ultrasonic beam. The audible source can be reproduced at the intersection of the beams. We present a comprehensive profiling of Meta-Speaker to validate the high manipulability it offers. We prototype Meta-Speaker and demonstrate its potential through three applications: anchor-free localization with a median error of 0.13 m, location-aware communication with a throughput of 1.28 Kbps, and acoustic augmented reality where users can perceive source direction with a mean error of 9.8 degrees."
-    },
-    {
-        "bibtex": "@inproceedings{jia2023mmhawkeve,\ntitle = {mmHawkeye: Passive UAV Detection with a COTS mmWave Radar},\nauthor = {Zhang, Jia and Na, Xin and Xi, Rui and Sun, Yimiao and He, Yuan},\nbooktitle = {Proceedings of the 20th International Conference on Sensing, Communication, and Networking, (SECON'23)},\npublisher = {IEEE},\nlocation   = {Madrid, Spain},\nyear = {2023},\ndoi = {}\n}\n",
-        "authors": {
-            "boldAuthors": ["Yimiao Sun"],
-            "correspondingAuthors": ["Yuan He"],
-            "equalContributionAuthors": null
-        },
-        "note": "",
-        "resources": {
-            "pdf": "./files/PDF/mmHawkeye_Conf.pdf",
-            "slides": null,
-            "code": null,
-            "demo": null
-        },
-        "abstract": "Small Unmanned Aerial Vehicles (UAVs) are becoming potential threats to security-sensitive areas and personal  privacy.  A UAV can shoot photos at height, but how to detect such  an uninvited intruder is an open problem.  This paper presents  mmHawkeye, a passive approach for UAV detection with a COTS  millimeter wave (mmWave) radar.  mmHawkeye doesn’t require  prior knowledge of the type, motions, and flight trajectory of  the UAV, while exploiting the signal feature induced by the UAV’s periodic micro-motion (PMM) for long-range accurate  detection.  The design is therefore effective in dealing with lowSNR and uncertain reflected signals from the UAV.  mmHawkeye  can further track the UAV’s position with dynamic programming  and particle filtering, and identify it with a Long Short-Term Memory (LSTM) based detector.  We implement mmHawkeye on  a commercial mmWave radar and evaluate its performance under  varied settings.  The experimental results show that mmHawkeye  has a detection accuracy of 95.8% and can realize detection at  a range up to 80m."
     }
 
 ]

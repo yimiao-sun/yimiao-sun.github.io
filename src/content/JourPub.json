@@ -2,16 +2,11 @@
     {
         "bibtex": "@ARTICLE{yuan2023acoustic,\ntitle = {Acoustic Localization System for Precise Drone Landing},\nauthor = {He, Yuan and Wang, Weiguo and Mottola, Luca and Li, Shuai and Sun, Yimiao and Li, Jinming and Jing, Hua and Wang, Ting and Wang, Yulei},\njournal = {IEEE Transactions on Mobile Computing},\nyear = {2023},\nvolume = {},\nnumber = {},\npages = {1-18},\ndoi = {10.1109/TMC.2023.3288299}\n}\n",
         "authors": {
-            "boldAuthors": ["Yimiao Sun"],
-            "correspondingAuthors": ["Weiguo Wang"],
-            "equalContributionAuthors": null
+            "boldAuthors": ["Yimiao Sun"]
         },
         "note": "",
         "resources": {
-            "pdf": "./files/PDF/MicNest_Jour.pdf",
-            "slides": null,
-            "code": null,
-            "demo": null
+            "pdf": "./files/PDF/MicNest_Jour.pdf"
         },
         "abstract": "We present MicNest : an acoustic localization system enabling precise drone landing. In MicNest , multiple microphones are deployed on a landing platform in carefully devised configurations. The drone carries a speaker transmitting purposefully-designed acoustic pulses. The drone may be localized as long as the pulses are correctly detected. Doing so is challenging: i) because of limited transmission power, propagation attenuation, background noise, and propeller interference, the Signal-to-Noise Ratio (SNR) of received pulses is intrinsically low; ii) the pulses experience non-linear Doppler distortion due to the physical drone dynamics; iii) as location information is used during landing, the processing latency must be reduced to effectively feed the flight control loop. To tackle these issues, we design a novel pulse detector, Matched Filter Tree (MFT), whose idea is to convert pulse detection to a tree search problem. We further present three practical methods to accelerate tree search jointly. Our experiments show that MicNest can localize a drone 120 m away with 0.53% relative localization error at 20 Hz location update frequency. For navigating drone landing, MicNest can achieve a success rate of 94 %. The average landing error (distance between landing point and target point) is only 4.3 cm."
     },
@@ -19,16 +14,11 @@
     {
         "bibtex": "@ARTICLE{jia2023survey,\ntitle = {A Survey of mmWave-Based Human Sensing: Technology, Platforms and Applications},\nauthor = {Zhang, Jia and Xi, Rui and He, Yuan and Sun, Yimiao and Guo, Xiuzhen and Wang, Weiguo and Na, Xin and Liu, Yunhao and Shi, Zhenguo and Gu, Tao},\njournal = {IEEE Communications Surveys & Tutorials},\nyear = {2023},\nvolume = {},\nnumber = {},\npages = {1-36},\ndoi = {10.1109/COMST.2023.3298300}\n}\n",
         "authors": {
-            "boldAuthors": ["Yimiao Sun"],
-            "correspondingAuthors": ["Yuan He"],
-            "equalContributionAuthors": null
+            "boldAuthors": ["Yimiao Sun"]
         },
         "note": "",
         "resources": {
-            "pdf": "./files/PDF/mmWave_Survey.pdf",
-            "slides": null,
-            "code": null,
-            "demo": null
+            "pdf": "./files/PDF/mmWave_Survey.pdf"
         },
         "abstract": "With the rapid development of the Internet of Things (IoT) and the rise of 5G communication networks and automatic driving, millimeter wave (mmWave) sensing is emerging and starts impacting our life and workspace. mmWave sensing can sense humans and objects in a contactless way, providing fine-grained sensing ability. In the past few years, many mmWave sensing techniques have been proposed and applied in various human sensing applications (e.g., human localization, gesture recognition, and vital monitoring). We discover the need of a comprehensive survey to summarize the technology, platforms and applications of mmWave-based human sensing. In this survey, we first present the mmWave hardware platforms and some key techniques of mmWave sensing. We then provide a comprehensive review of existing mmWave-based human sensing works. Specifically, we divide existing works into four categories according to the sensing granularity: human tracking and localization, motion recognition, biometric measurement and human imaging. Finally, we discuss the potential research challenges and present future directions in this area."
     }
