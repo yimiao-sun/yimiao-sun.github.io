@@ -1,6 +1,18 @@
 [
     {
-        "bibtex": "@ARTICLE{yuan2023acoustic,\ntitle = {Acoustic Localization System for Precise Drone Landing},\nauthor = {He, Yuan and Wang, Weiguo and Mottola, Luca and Li, Shuai and Sun, Yimiao and Li, Jinming and Jing, Hua and Wang, Ting and Wang, Yulei},\njournal = {IEEE Transactions on Mobile Computing},\nyear = {2023},\nvolume = {},\nnumber = {},\npages = {1-18},\ndoi = {10.1109/TMC.2023.3288299}\n}\n",
+        "bibtex": "@article{weiguo2023acoustic,\ntitle = {{Acoustic Localization of Drones in Precise Landing: The Research and Practice with MicNest}},\nauthor = {Wang, Weiguo and He, Yuan and Mottola, Luca and Li, Shuai and Sun, Yimiao and Li, Jinming and Jing, Hua and Wang, Ting and Wang, Yulei},\njournal = {GetMobile: Mobile Computing and Communications},\nyear = {2023},\nvolume = {27},\nnumber = {3},\npages = {27–32},\ndoi = {10.1145/3631588.3631597}\n}\n",
+        "authors": {
+            "boldAuthors": ["Yimiao Sun"]
+        },
+        "note": "",
+        "resources": {
+            "pdf": "./files/PDF/MicNest_Highlight.pdf"
+        },
+        "abstract": "Delivery drones have the potential to revolutionize transportation and distribution of goods. With their autonomous navigation capabilities, they offer an efficient solution to bypass the challenges posed by complex urban traffic and enable instant package delivery. Many industrial firms are actively exploring the commercial feasibility of instant drone deliveries. Meituan, one of the largest companies in this area, devised a systematic approach to instant delivery using drones. The process begins with loading the package onto the drone, which then takes off, ascends to cruising altitude, and sets a direct course towards the designated destination. Typically, this destination is a Meituan-operated self-collection station located near the customer."
+    },
+
+    {
+        "bibtex": "@ARTICLE{yuan2023acoustic,\ntitle = {{Acoustic Localization System for Precise Drone Landing}},\nauthor = {He, Yuan and Wang, Weiguo and Mottola, Luca and Li, Shuai and Sun, Yimiao and Li, Jinming and Jing, Hua and Wang, Ting and Wang, Yulei},\njournal = {IEEE Transactions on Mobile Computing},\nyear = {2023},\nvolume = {},\nnumber = {},\npages = {1-18},\ndoi = {10.1109/TMC.2023.3288299}\n}\n",
         "authors": {
             "boldAuthors": ["Yimiao Sun"]
         },
@@ -12,7 +24,7 @@
     },
 
     {
-        "bibtex": "@ARTICLE{jia2023survey,\ntitle = {A Survey of mmWave-Based Human Sensing: Technology, Platforms and Applications},\nauthor = {Zhang, Jia and Xi, Rui and He, Yuan and Sun, Yimiao and Guo, Xiuzhen and Wang, Weiguo and Na, Xin and Liu, Yunhao and Shi, Zhenguo and Gu, Tao},\njournal = {IEEE Communications Surveys & Tutorials},\nyear = {2023},\nvolume = {},\nnumber = {},\npages = {1-36},\ndoi = {10.1109/COMST.2023.3298300}\n}\n",
+        "bibtex": "@ARTICLE{jia2023survey,\ntitle = {{A Survey of mmWave-Based Human Sensing: Technology, Platforms and Applications}},\nauthor = {Zhang, Jia and Xi, Rui and He, Yuan and Sun, Yimiao and Guo, Xiuzhen and Wang, Weiguo and Na, Xin and Liu, Yunhao and Shi, Zhenguo and Gu, Tao},\njournal = {IEEE Communications Surveys & Tutorials},\nyear = {2023},\nvolume = {},\nnumber = {},\npages = {1-36},\ndoi = {10.1109/COMST.2023.3298300}\n}\n",
         "authors": {
             "boldAuthors": ["Yimiao Sun"]
         },
