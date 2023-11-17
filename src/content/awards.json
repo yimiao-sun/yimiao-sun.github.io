@@ -1,6 +1,12 @@
 [
     {
         "category": "Honors", "list": [
+            
+
+
+            {"date": "2023.11", "content": "The First Class Scholarship, Tsinghua University | 清华大学一等奖学金"},
+            {"date": "2023.10", "content": "GetMobile Research Highlights, ACM GetMobile 2023"},
+            {"date": "2022.11", "content": "The Third Class Scholarship, Tsinghua University | 清华大学三等奖学金"},
             {"date": "2022.10", "content": "Best Paper Runner-Up Award (<u>Top 2 out of all 209 submissions</u>), ACM SenSys 2022"},
             {"date": "2021.04", "content": "Outstanding university graduate (<u>Top 3% in this year</u>), Sichuan Government | 四川省优秀毕业生"},
             {"date": "2020.12", "content": "UESTC Outstanding Students (<u>Top 10 out of all 4446 students</u>), UESTC | 成电杰出学生"},
