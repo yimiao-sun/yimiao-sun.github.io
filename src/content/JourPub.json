@@ -36,7 +36,7 @@
     },
 
     {
-        "bibtex": "@ARTICLE{jia2023survey,\ntitle = {{A Survey of mmWave-Based Human Sensing: Technology, Platforms and Applications}},\nauthor = {Zhang, Jia and Xi, Rui and He, Yuan and Sun, Yimiao and Guo, Xiuzhen and Wang, Weiguo and Na, Xin and Liu, Yunhao and Shi, Zhenguo and Gu, Tao},\njournal = {IEEE Communications Surveys & Tutorials},\nyear = {2023},\nvolume = {},\nnumber = {},\npages = {1-36},\ndoi = {10.1109/COMST.2023.3298300}\n}\n",
+        "bibtex": "@ARTICLE{jia2023survey,\ntitle = {{A Survey of mmWave-Based Human Sensing: Technology, Platforms and Applications}},\nauthor = {Zhang, Jia and Xi, Rui and He, Yuan and Sun, Yimiao and Guo, Xiuzhen and Wang, Weiguo and Na, Xin and Liu, Yunhao and Shi, Zhenguo and Gu, Tao},\njournal = {IEEE Communications Surveys & Tutorials},\nyear = {2023},\nvolume = {25},\nnumber = {4},\npages = {2052-2087},\ndoi = {10.1109/COMST.2023.3298300}\n}\n",
         "authors": {
             "boldAuthors": ["Yimiao Sun"]
         },
