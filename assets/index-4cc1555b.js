@@ -1163,8 +1163,8 @@ title = {Detection and Identification of Non-Cooperative UAV Using a COTS mmWave
 author = {He, Yuan and Zhang, Jia and Xi, Rui and Na, Xin and Sun, Yimiao and Li, Beibei},
 journal = {ACM Transactions on Sensor Networks},
 year = {2023},
-volume = {},
-number = {},
+volume = {20},
+number = {2},
 pages = {1-22},
 doi = {10.1145/3638767}
 }
