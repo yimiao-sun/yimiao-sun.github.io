@@ -114,10 +114,16 @@ function copyToClipboard(text, pubId, cslTemplateType) {
   </p> -->
   <ul class="pub-list" reversed>
     <li v-for="pub in pubArr" :key="pub.entry.id">
-      <a style="font-size: 13pt" :href="pub.entry.URL" target="_blank">{{ pub.entry.title }}</a><br>
-      <p class="pub" style="font-size: 11pt" v-html="pub.entry.authors"></p>
-      <p class="pub" style="font-size: 11pt"><em>{{ pub.entry["container-title"] }}</em>. {{ pub.entry.issued["date-parts"][0][0] }}.</p>
-      <p class="pub note" v-if="pub.note">{{ pub.note }}</p>
+      <div>
+        <span style="color: red; font-size: 13pt; font-weight: bold" class="pub note" v-if="pub.note" font-style="Arial" >[{{ pub.note }}]</span>
+        <span> "</span>
+        <span style="font-size: 13pt; text-decoration: underline;" :href="pub.entry.URL" target="_blank" font-style="Arial">{{ pub.entry.title }}</span>
+        <span>". </span><br>
+        <span class="pub" style="font-size: 13pt" v-html="pub.entry.authors" font-style="Arial"></span>
+        <span>. </span>
+        <!-- <span class="pub" style="font-size: 13pt" >{{ pub.entry.issued["date-parts"][0][0] }}.</span> -->
+        <!-- <span class="pub" style="font-size: 11pt" font-style="Arial"><em>{{ pub.entry["container-title"] }}</em>. {{ pub.entry.issued["date-parts"][0][0] }}.</span> -->
+      </div>
       <div>
         <div>
           <a class="badge badge-abs" @click="showFlag[pub.entry.id].abs = !showFlag[pub.entry.id].abs">Abstract</a>

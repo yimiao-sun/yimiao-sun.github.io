@@ -13,7 +13,7 @@ const description = computed(() => {
   <div class="row items-align-bottom">
     <div class="col-f4">
       <h1 style="font-size: 18pt">{{ metaContent.name }}</h1>
-      <div style="font-size: 11pt" v-html="description"></div>
+      <div style="font-size: 13pt" v-html="description"></div>
     </div>
     <div>
       <img class="col" src="../assets/personal-photo.jpg" width="130" alt="personal photo">
