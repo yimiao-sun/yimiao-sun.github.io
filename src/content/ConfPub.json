@@ -6,7 +6,8 @@
         },
         "note": "IEEE/ACM IWQoS'24",
         "resources": {
-            "pdf": "./files/PDF/ElaSe_IWQoS.pdf"
+            "pdf": "./files/PDF/ElaSe_IWQoS.pdf",   
+            "slides": "./files/Slides/ElaSe_PPT.pdf"
         },
         "abstract": "Integrated Sensing and Communication (ISAC) has been witnessed to be a new paradigm of wireless sensing in 5G networks. Users can benefit from pervasive sensing applications in various scenarios with no communication penalty. Given the diverse demands for sensing resources across different sensing tasks, elastic resource scheduling becomes crucial, particularly when resources are constrained. However, existing approaches often treat users equally, limiting their applicability in dealing with diverse sensing tasks in the real world. In this paper, we introduce ElaSe, a pioneering sensing technique that enables real-time elastic scheduling of sensing resources. At the core of ElaSe is the exploration of the user’s state to precisely determine the sensing resource requirements and schedule resources accordingly. We build the first model for matching sensing resources with sensing demands, and further propose a predictive scheduling scheme to eliminate delays by leveraging the 5G virtualized radio access network (vRAN). We conduct experiments to evaluate the performance of ElaSe under different settings. The results demonstrate that ElaSe outperforms the non-scheduling scheme, with a 34% reduction in trajectory tracking error and a 92% decrease in resource allocation error."
     },
@@ -17,7 +18,8 @@
         },
         "note": "IEEE INFOCOM'24",
         "resources": {
-            "pdf": "./files/PDF/TRIDENT_INFOCOM.pdf"
+            "pdf": "./files/PDF/TRIDENT_INFOCOM.pdf",
+            "slides": "./files/Slides/TRIDENT_PPT.pdf"
         },
         "abstract": "Backscatter is an enabling technology for battery-free sensing in industrial IoT applications. For the purpose of full coverage of numerous tags in the deployment area, one often needs to deploy multiple readers, each of which is to communicate with tags within its communication range. But the actual backscattered signals from a tag are likely to reach a reader outside its communication range, causing undesired interference. Conventional approaches for interference avoidance, either TDMA or CSMA based, separate the readers’ media accesses in the time dimension and suffer from limited network throughput. In this paper, we propose TRIDENT, a novel backscatter tag design that enables interference avoidance with frequency-space division. By incorporating a tunable bandpass filter and multiple terminal loads, a TRIDENT tag is able to detect its channel condition and adaptively adjust the frequency band and the power of its backscattered signals, so that all the readers in the network can operate concurrently without being interfered. We implement TRIDENT and evaluate its performance under various settings. The results demonstrate that TRIDENT enhances the network throughput by 3.18×, compared to the TDMA based scheme."
     },
