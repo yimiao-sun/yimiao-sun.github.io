@@ -1,6 +1,6 @@
 [
     {
-        "bibtex": "@inproceedings{yulong2024elase,\ntitle = {ELASE: Enabling Real-time Elastic Sensing Resource Scheduling in 5G vRAN},\nauthor = {Chen, Yulong and Guo, Junchen and Sun, Yimiao and Yao, Haipeng and Liu, Yunhao and He, Yuan},\nbooktitle = {Proceedings of IEEE INFOCOM}, \nyear = {2024}\n}\n",
+        "bibtex": "@inproceedings{yulong2024elase,\ntitle = {ELASE: Enabling Real-time Elastic Sensing Resource Scheduling in 5G vRAN},\nauthor = {Chen, Yulong and Guo, Junchen and Sun, Yimiao and Yao, Haipeng and Liu, Yunhao and He, Yuan},\nbooktitle = {Proceedings of IEEE/ACM IWQoS}, \nyear = {2024}\n}\n",
         "authors": {
             "boldAuthors": ["Yimiao Sun"]
         },
