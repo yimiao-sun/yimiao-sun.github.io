@@ -6,7 +6,7 @@
         },
         "note": "ACM TOSN'23",
         "resources": {
-            "pdf": "./files/PDF/mmHawkeye_TOSN.pdf"
+            "pdf": "./files/PDF/2023mmHawkeye_TOSN.pdf"
         },
         "abstract": "Small Unmanned Aerial Vehicles (UAVs) are becoming potential threats to security-sensitive areas and personal privacy. A UAV can shoot photos at height, but how to detect such an uninvited intruder is an open problem. This paper presents mmHawkeye, a passive approach for non-cooperative UAV detection and identification with a COTS millimeter wave (mmWave) radar. mmHawkeye doesn’t require prior knowledge of the type, motions, and flight trajectory of the UAV, while exploiting the signal feature induced by the UAV’s periodic micro-motion (PMM) for long-range accurate detection. The design is therefore effective in dealing with low-SNR and uncertain reflected signals from the UAV. After analyzing the theoretical model of the PMM feature, mmHawkeye can further track the UAV’s position containing range, azimuth and altitude angle with dynamic programming and particle filtering, and then identify it with a Long Short-Term Memory (LSTM) based detector. We implement mmHawkeye on a commercial mmWave radar and evaluate its performance under varied settings. The experimental results show that mmHawkeye has a detection accuracy of 95.8% and can realize detection at a range up to 80m."
     }, 
@@ -17,7 +17,7 @@
         },
         "note": "IEEE TMC'23",
         "resources": {
-            "pdf": "./files/PDF/AIM_TMC.pdf"
+            "pdf": "./files/PDF/2023AIM_TMC.pdf"
         },
         "abstract": "We present Acoustic Inertial Measurement (AIM), a one-of-a-kind technique for indoor drone localization and tracking. Indoor drone localization and tracking are arguably a crucial, yet unsolved challenge: in GPS-denied environments, existing approaches enjoy limited applicability, especially in Non-Line of Sight (NLoS), require extensive environment instrumentation, or demand considerable hardware/software changes on drones. In contrast, AIM exploits the acoustic characteristics of the drones to estimate their location and derive their motion, even in NLoS settings. We tame location estimation errors using a dedicated Kalman filter and the Interquartile Range rule (IQR) and demonstrate that AIM can support indoor spaces with arbitrary ranges and layouts. We implement AIM using an off-the-shelf microphone array and evaluate its performance with a commercial drone under varied settings. Results indicate that the mean localization error of AIM is 46% lower than that of commercial UWB-based systems in a complex 10m×10m indoor scenario, where state-of-the-art infrared systems would not even work because of NLoS situations. When distributed microphone arrays are deployed, the mean error can be reduced to less than 0.5m in a 20m range, and even support spaces with arbitrary ranges and layouts."
     },
@@ -29,7 +29,7 @@
         },
         "note": "ACM GetMobile'23",
         "resources": {
-            "pdf": "./files/PDF/MicNest_GetMobile.pdf"
+            "pdf": "./files/PDF/2023MicNest_GetMobile.pdf"
         },
         "abstract": "Delivery drones have the potential to revolutionize transportation and distribution of goods. With their autonomous navigation capabilities, they offer an efficient solution to bypass the challenges posed by complex urban traffic and enable instant package delivery. Many industrial firms are actively exploring the commercial feasibility of instant drone deliveries. Meituan, one of the largest companies in this area, devised a systematic approach to instant delivery using drones. The process begins with loading the package onto the drone, which then takes off, ascends to cruising altitude, and sets a direct course towards the designated destination. Typically, this destination is a Meituan-operated self-collection station located near the customer."
     },
@@ -41,7 +41,7 @@
         },
         "note": "IEEE TMC'23",
         "resources": {
-            "pdf": "./files/PDF/MicNest_TMC.pdf"
+            "pdf": "./files/PDF/2023MicNest_TMC.pdf"
         },
         "abstract": "We present MicNest : an acoustic localization system enabling precise drone landing. In MicNest , multiple microphones are deployed on a landing platform in carefully devised configurations. The drone carries a speaker transmitting purposefully-designed acoustic pulses. The drone may be localized as long as the pulses are correctly detected. Doing so is challenging: i) because of limited transmission power, propagation attenuation, background noise, and propeller interference, the Signal-to-Noise Ratio (SNR) of received pulses is intrinsically low; ii) the pulses experience non-linear Doppler distortion due to the physical drone dynamics; iii) as location information is used during landing, the processing latency must be reduced to effectively feed the flight control loop. To tackle these issues, we design a novel pulse detector, Matched Filter Tree (MFT), whose idea is to convert pulse detection to a tree search problem. We further present three practical methods to accelerate tree search jointly. Our experiments show that MicNest can localize a drone 120 m away with 0.53% relative localization error at 20 Hz location update frequency. For navigating drone landing, MicNest can achieve a success rate of 94 %. The average landing error (distance between landing point and target point) is only 4.3 cm."
     },
@@ -53,7 +53,7 @@
         },
         "note": "IEEE COMST'23",
         "resources": {
-            "pdf": "./files/PDF/mmWave_COMST.pdf"
+            "pdf": "./files/PDF/2023mmWave_COMST.pdf"
         },
         "abstract": "With the rapid development of the Internet of Things (IoT) and the rise of 5G communication networks and automatic driving, millimeter wave (mmWave) sensing is emerging and starts impacting our life and workspace. mmWave sensing can sense humans and objects in a contactless way, providing fine-grained sensing ability. In the past few years, many mmWave sensing techniques have been proposed and applied in various human sensing applications (e.g., human localization, gesture recognition, and vital monitoring). We discover the need of a comprehensive survey to summarize the technology, platforms and applications of mmWave-based human sensing. In this survey, we first present the mmWave hardware platforms and some key techniques of mmWave sensing. We then provide a comprehensive review of existing mmWave-based human sensing works. Specifically, we divide existing works into four categories according to the sensing granularity: human tracking and localization, motion recognition, biometric measurement and human imaging. Finally, we discuss the potential research challenges and present future directions in this area."
     }
