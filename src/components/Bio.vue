@@ -16,7 +16,7 @@ const description = computed(() => {
       <div style="font-size: 13pt" v-html="description"></div>
     </div>
     <div>
-      <img class="col" src="../assets/personal-photo.jpg" width="130" alt="personal photo">
+      <img class="col" src="../assets/personal-photo.jpg" width="162" alt="personal photo">
     </div>
   </div>
   <div class="row flex-start">
