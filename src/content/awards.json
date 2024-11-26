@@ -1,9 +1,8 @@
 [
     {
         "category": "Honors", "list": [
-            
-
-
+            {"date": "2024.11", "content": "The First Class Scholarship, Tsinghua University | 清华大学一等奖学金"},
+            {"date": "2024.11", "content": "Capital Frontier Academic Achievement,  Beijing Association for Science and Technology | 首都前沿学术成果"},
             {"date": "2023.11", "content": "The First Class Scholarship, Tsinghua University | 清华大学一等奖学金"},
             {"date": "2023.10", "content": "GetMobile Research Highlights, ACM GetMobile 2023"},
             {"date": "2022.11", "content": "The Third Class Scholarship, Tsinghua University | 清华大学三等奖学金"},
