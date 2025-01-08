@@ -115,7 +115,7 @@ function copyToClipboard(text, pubId, cslTemplateType) {
   <ul class="pub-list" reversed>
     <li v-for="pub in pubArr" :key="pub.entry.id">
       <div>
-        <span style="color: red; font-size: 13pt; font-weight: bold" class="pub note" v-if="pub.note" font-style="Arial" >[{{ pub.note }}]</span>
+        <span style="color: #005ae0; font-size: 13pt; font-weight: bold" class="pub note" v-if="pub.note" font-style="Arial" >[{{ pub.note }}]</span>
         <span> "</span>
         <span style="font-size: 13pt; text-decoration: underline;" :href="pub.entry.URL" target="_blank" font-style="Arial">{{ pub.entry.title }}</span>
         <span>". </span><br>

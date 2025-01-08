@@ -90,10 +90,11 @@ p.note {
 .badge-abs {
     color: #222529c0;
     background-color: #dfe2e593;
+    /* border: 1.5px solid #222529c0; */
 }
 
 .badge-abs:hover {
-    background-color: #c3c9cf;
+    background-color: #0a87ed;
 }
 
 .badge-bib {
