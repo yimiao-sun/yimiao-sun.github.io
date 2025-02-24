@@ -3,10 +3,10 @@ name: Deploy vue.js site to Pages
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["vue-dev"]
+    branches: ["main"]
   pull_request:
       branches:
-        - vue-dev
+        - main
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -31,8 +31,7 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v3
         with:
-          node-version: 18.14.2
-          npm-version: 9.5.1
+          node-version: 18
           cache: 'npm'
       - name: Setup Pages
         id: pages
@@ -44,10 +43,9 @@ jobs:
           npm run build
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v2
         with:
           path: ./dist
-          
 
   # Deployment job
   deploy:
