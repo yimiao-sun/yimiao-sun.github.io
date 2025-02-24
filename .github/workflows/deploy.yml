@@ -31,7 +31,8 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 18.14.2
+          npm-version: 9.5.1
           cache: 'npm'
       - name: Setup Pages
         id: pages
@@ -43,9 +44,10 @@ jobs:
           npm run build
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v1
         with:
           path: ./dist
+          
 
   # Deployment job
   deploy:
