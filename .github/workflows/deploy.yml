@@ -43,7 +43,7 @@ jobs:
           npm run build
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
-        uses: uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v4
         with:
           path: ./dist
 
