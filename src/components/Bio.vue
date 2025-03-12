@@ -1,12 +1,12 @@
 <script setup>
 import { ref, computed } from 'vue'
-import { convertMarkdownToHtml } from '../utils'
-import metaJson from '../content/meta.json'
+import { convertMarkdownToHtml } from '../utils';
+import metaJson from '../content/meta.json';
 
-const metaContent = ref(metaJson)
+const metaContent = ref(metaJson);
 const description = computed(() => {
-  return convertMarkdownToHtml(metaContent.value.description)
-})
+  return convertMarkdownToHtml(metaContent.value.description);
+});
 </script>
 
 <template>
@@ -20,9 +20,20 @@ const description = computed(() => {
     </div>
   </div>
   <div class="row flex-start">
-    <div style="font-size: 13pt" class="m-r1 m-tb-08" v-for="(contact, key) in metaContent.contact" :key="key">
+    <div style="color: #193C6C; font-size: 13pt" class="m-r1 m-tb-08" v-for="(contact, key) in metaContent.contact" :key="key">
       <i :class="contact.icon"></i>
-      <a :href="contact.url" target="_blank">{{ key }}</a>
+      <a :href="contact.url" target="_blank" class="custom-link">{{ key }}</a>
     </div>
   </div>
 </template>
+
+<style scoped>
+.custom-link {
+  color: #193C6C;
+  text-decoration: none;
+}
+.custom-link:hover {
+  color: #193C6C;
+  text-decoration: underline;
+}
+</style>
