@@ -1,0 +1,112 @@
+[
+    {
+        "bibtex": "@article{sun2025survey,\ntitle = {A Survey of mmWave Backscatter: Applications, Platforms, and Technologies},\nauthor = {Sun, Yimiao and He, Yuan and Zou, Yang and Gu, Jiaming and Yang, Xiaolei and Zhang, Jia and Mao, Ziheng},\njournal = {ACM Computing Surveys},\nyear = {2025},\nvolume = {},\nnumber = {},\npages = {}\n}\n",
+        "authors": {
+            "boldAuthors": ["Yimiao Sun"]
+        },
+        "note": "ACM CSUR'25",
+        "resources": {
+            "pdf": "./files/PDF/2025CSUR.pdf"
+        },
+        "abstract": "As a key enabling technology of the Internet of Things (IoT) and 5G communication networks, millimeter wave (mmWave) backscatter has undergone noteworthy advancements and brought significant improvement to prevailing sensing and communication systems. Past few years have witnessed growing efforts in innovating mmWave backscatter transmitters (e.g., tags and metasurfaces) and the corresponding techniques, which provide efficient information embedding and fine-grained signal manipulation for mmWave backscatter technologies. These efforts have greatly enabled a variety of appealing applications, such as long-range localization, roadside-to-vehicle communication, coverage optimization and large-scale identification. In this paper, we carry out a comprehensive survey to systematically summarize the works related to the topic of mmWave backscatter. Firstly, we introduce the scope of this survey and provide a taxonomy to distinguish two categories of mmWave backscatter research based on the operating principle of the backscatter transmitter: modulation-based and relay-based. Furthermore, existing works in each category are grouped and introduced in detail, with their common applications, platforms and technologies, respectively. Finally, we elaborate on potential directions and discuss related surveys in this area."
+    },
+    {
+        "bibtex": "@article{yimiao2023indoor,\ntitle = {Indoor Drone Localization and Tracking Based on Acoustic Inertial Measurement},\nauthor = {Sun, Yimiao and Wang, Weiguo and Mottola, Luca and Jia, Zhang and Wang, Ruijin and He, Yuan},\njournal = {IEEE Transactions on Mobile Computing},\nyear = {2024},\nvolume = {23},\nnumber = {6},\npages = {7537-7551}\n}\n",
+        "authors": {
+            "boldAuthors": ["Yimiao Sun"]
+        },
+        "note": "IEEE TMC'23",
+        "resources": {
+            "pdf": "./files/PDF/2023AIM_TMC.pdf"
+        },
+        "abstract": "We present Acoustic Inertial Measurement (AIM), a one-of-a-kind technique for indoor drone localization and tracking. Indoor drone localization and tracking are arguably a crucial, yet unsolved challenge: in GPS-denied environments, existing approaches enjoy limited applicability, especially in Non-Line of Sight (NLoS), require extensive environment instrumentation, or demand considerable hardware/software changes on drones. In contrast, AIM exploits the acoustic characteristics of the drones to estimate their location and derive their motion, even in NLoS settings. We tame location estimation errors using a dedicated Kalman filter and the Interquartile Range rule (IQR) and demonstrate that AIM can support indoor spaces with arbitrary ranges and layouts. We implement AIM using an off-the-shelf microphone array and evaluate its performance with a commercial drone under varied settings. Results indicate that the mean localization error of AIM is 46% lower than that of commercial UWB-based systems in a complex 10m×10m indoor scenario, where state-of-the-art infrared systems would not even work because of NLoS situations. When distributed microphone arrays are deployed, the mean error can be reduced to less than 0.5m in a 20m range, and even support spaces with arbitrary ranges and layouts."
+    },
+    {
+        "bibtex": "@inproceedings{yimiao2023bifrost,\ntitle = {BIFROST: Reinventing WiFi Signals Based on Dispersion Effect for Accurate Indoor Localization},\nauthor = {Sun, Yimiao and He, Yuan and Zhang, Jiacheng and Na, Xin and Chen, Yande and Wang, Weiguo and Guo, Xiuzhen},\nbooktitle = {Proceedings of ACM SenSys}, \nyear = {2023}\n}\n",
+        "authors": {
+            "boldAuthors": ["Yimiao Sun"]
+        },
+        "note": "ACM SenSys'23",
+        "resources": {
+            "pdf": "./files/PDF/2023BIFROST_SenSys.pdf",
+            "slides": "./files/Slides/2023BIFROST_PPT.pdf"
+        },
+        "abstract": "WiFi-based device localization is a key enabling technology for smart applications, which has attracted numerous research studies in the past decade. Most of the existing approaches rely on Line-of-Sight (LoS) signals to work, while a critical problem is often neglected: In the real-world indoor environments, WiFi signals are everywhere, but very few of them are usable for accurate localization. As a result, the localization accuracy in practice is far from being satisfactory. This paper presents BIFROST, a novel hardware-software co-design for accurate indoor localization. The core idea of BIFROST is to reinvent WiFi signals, so as to provide sufficient LoS signals for localization. This is realized by exploiting the dispersion effect of signals emitted by the leaky wave antenna (LWA). We present a low-cost plug-in design of LWA that can generate orthogonal polarized signals: On one hand, LWA disperses signals of different frequencies to different angles, thus providing Angle-of-Arrival (AoA) information for the localized target. On the other hand, the target further leverages the antenna polarization mismatch to distinguish AoAs from different LWAs. In the software layer, fine-grained information in Channel State Information (CSI) is exploited to cope with multipath and noise. We implement BIFROST and evaluate its performance under various settings. The results show that the median localization error of BIFROST is 0.81m, which is 52.35% less than that of SpotFi, a state-of-the-art approach. SpotFi, when combined with BIFROST to work in the realistic settings, can reduce the localization error by 33.54%."
+    },
+    {
+        "bibtex": "@inproceedings{yimiao2023aim,\ntitle = {AIM: Acoustic Inertial Measurement for Indoor Drone Localization and Tracking},\nauthor = {Sun, Yimiao and Wang, Weiguo and Mottola, Luca and Wang, Ruijin and He, Yuan},\nbooktitle = {Proceedings of ACM SenSys},\nyear = {2022}\n}\n",
+        "authors": {
+            "boldAuthors": ["Yimiao Sun"]
+        },
+        "note": "ACM SenSys'22",
+        "resources": {
+            "pdf": "./files/PDF/2022AIM_SenSys.pdf",
+            "slides": "./files/Slides/2022AIM_PPT.pdf",
+            "code": null,
+            "demo": null
+        },
+        "abstract": "We present Acoustic Inertial Measurement (AIM), a one-of-a-kind technique for indoor drone localization and tracking. Indoor drone localization and tracking are arguably a crucial, yet unsolved challenge: in GPS-denied environments, existing approaches enjoy limited applicability, especially in Non-Line of Sight (NLoS), require extensive environment instrumentation, or demand considerable hardware/software changes on drones. In contrast, AIM exploits the acoustic characteristics of the drones to estimate their location and derive their motion, even in NLoS settings. We tame location estimation errors using a dedicated Kalman filter and the Interquartile Range rule (IQR). We implement AIM using an off-the-shelf microphone array and evaluate its performance with a commercial drone under varied settings. Results indicate that the mean localization error of AIM is 46% lower than commercial UWB-based systems in complex indoor scenarios, where state-of-the-art infrared systems would not even work because of NLoS settings. We further demonstrate that AIM can be extended to support indoor spaces with arbitrary ranges and layouts without loss of accuracy by deploying distributed microphone arrays."
+    },
+    {
+        "bibtex": "@inproceedings{na2025quinid,\ntitle = {QuinID: Enabling FDMA-Based Fully Parallel RFID with Frequency-Selective Antenna},\nauthor = {Na, Xin and Zhang, Jia and Zhang, Jiacheng and Guo, Xiuzhen and Zou, Yang and Jin, Meng and Sun, Yimiao and Liu, Yunhao and He, Yuan},\nbooktitle = {Proceedings of ACM MobiCom}, \nyear = {2025}\n}\n",
+        "authors": {
+            "boldAuthors": ["Yimiao Sun"]
+        },
+        "note": "ACM MobiCom'25",
+        "resources": {
+            "pdf": "./files/PDF/xxx.pdf",
+            "slides": "./files/Slides/xxx.pdf"
+        },
+        "abstract": "Parallelizing passive Radio Frequency Identification (RFID) reading is an arguably crucial, yet unsolved challenge in modern IoT applications. Existing approaches remain limited to time-division operations and fail to read multiple tags simultaneously. In this paper, we introduce QuinID, the first frequency-division multiple access (FDMA) RFID system to achieve fully parallel reading. We innovatively exploit the frequency selectivity of the tag antenna rather than a conventional digital FDMA, bypassing the power and circuitry constraint of RFID tags. Specifically, we delicately design the frequency-selective antenna based on surface acoustic wave (SAW) components to achieve extreme narrow-band response, so that QuinID tags (i.e., QuinTags) operate exclusively within their designated frequency bands. By carefully designing the matching network and canceling various interference, a customized QuinReader communicates simultaneously with multiple QuinTags across distinct bands. QuinID maintains high compatibility with commercial RFID systems and presents a tag cost of less than 10 cents. We implement a 5-band QuinID system and evaluate its performance under various settings. The results demonstrate a fivefold increase in read rate, reaching up to 5000 reads per second."
+    },
+    {
+        "bibtex": "@inproceedings{weiguo2023metaspeaker,\ntitle = {Meta-Speaker: Acoustic Source Projection by Exploiting Air Nonlinearity},\nauthor = {Wang, Weiguo and He, Yuan and Jin, Meng and Sun, Yimiao and Guo, Xiuzhen},\nbooktitle = {Proceedings of ACM MobiCom}, \nyear = {2023}\n}\n",
+        "authors": {
+            "boldAuthors": ["Yimiao Sun"]
+        },
+        "note": "ACM MobiCom'23",
+        "resources": {
+            "pdf": "./files/PDF/2023MetaSpeaker_MobiCom.pdf",
+            "slides": "./files/Slides/2023MetaSpeaker_PPT.pdf"
+        },
+        "abstract": "This paper proposes Meta-Speaker, an innovative speaker capable of projecting audible sources into the air with a high level of manipulability. Unlike traditional speakers that emit sound waves in all directions, Meta-Speaker can manipulate the granularity of the audible region, down to a single point, and can manipulate the location of the source. Additionally, the source projected by Meta-Speaker is a physical presence in space, allowing both humans and machines to perceive it with spatial awareness. Meta-Speaker achieves this by leveraging the fact that air is a nonlinear medium, which enables the reproduction of audible sources from ultrasounds. Meta-Speaker comprises two distributed ultrasonic arrays, each transmitting a narrow ultrasonic beam. The audible source can be reproduced at the intersection of the beams. We present a comprehensive profiling of Meta-Speaker to validate the high manipulability it offers. We prototype Meta-Speaker and demonstrate its potential through three applications: anchor-free localization with a median error of 0.13 m, location-aware communication with a throughput of 1.28 Kbps, and acoustic augmented reality where users can perceive source direction with a mean error of 9.8 degrees."
+    },    
+    {
+        "bibtex": "@ARTICLE{jia2023survey,\ntitle = {A Survey of mmWave-Based Human Sensing: Technology, Platforms and Applications},\nauthor = {Zhang, Jia and Xi, Rui and He, Yuan and Sun, Yimiao and Guo, Xiuzhen and Wang, Weiguo and Na, Xin and Liu, Yunhao and Shi, Zhenguo and Gu, Tao},\njournal = {IEEE Communications Surveys & Tutorials},\nyear = {2023},\nvolume = {25},\nnumber = {4},\npages = {2052-2087}\n}\n",
+        "authors": {
+            "boldAuthors": ["Yimiao Sun"]
+        },
+        "note": "IEEE COMST'23",
+        "resources": {
+            "pdf": "./files/PDF/2023mmWave_COMST.pdf"
+        },
+        "abstract": "With the rapid development of the Internet of Things (IoT) and the rise of 5G communication networks and automatic driving, millimeter wave (mmWave) sensing is emerging and starts impacting our life and workspace. mmWave sensing can sense humans and objects in a contactless way, providing fine-grained sensing ability. In the past few years, many mmWave sensing techniques have been proposed and applied in various human sensing applications (e.g., human localization, gesture recognition, and vital monitoring). We discover the need of a comprehensive survey to summarize the technology, platforms and applications of mmWave-based human sensing. In this survey, we first present the mmWave hardware platforms and some key techniques of mmWave sensing. We then provide a comprehensive review of existing mmWave-based human sensing works. Specifically, we divide existing works into four categories according to the sensing granularity: human tracking and localization, motion recognition, biometric measurement and human imaging. Finally, we discuss the potential research challenges and present future directions in this area."
+    },
+    {
+        "bibtex": "@inproceedings{zou2025satori,\ntitle = {Satori: In-band Analog Backscatter for Audio Transmission},\nauthor = {Zou, Yang and Na, Xin and Sun, Yimiao and Chen, Yande and He, Yuan},\nbooktitle = {Proceedings of ACM MobiSys}, \nyear = {2025}\n}\n",
+        "authors": {
+            "boldAuthors": ["Yimiao Sun"]
+        },
+        "note": "ACM MobiSys'25",
+        "resources": {
+            "pdf": "./files/PDF/xxx.pdf",
+            "slides": "./files/Slides/xxx.pdf"
+        },
+        "abstract": "In IoT applications such as environmental monitoring and industrial security surveillance, audio sensors are increasingly used, among which wireless sensors are preferred. In order to achieve a sustained transmission, low-power wireless technology such as backscatter has been widely considered. However, existing backscatter systems encounter difficulties in audio transmissions due to the high power consumption from the complicated digital processing and fast frequency-shifting clocks. In this paper, we propose Satori, the first-of-its-kind in-band analog backscatter system for audio transmission with ultra-low power consumption. Satori eliminates the need for in-place digital processing by directly embedding analog audio voltages into backscattered WiFi symbols through analog modulation. It also avoids the power consumption of the frequency-shifting clock by transmitting the audio within the excitation WiFi signal's frequency band. We implement the Satori prototype and evaluate it under various settings. The experimental results indicate that Satori achieves audio transmission with a SNR greater than 18 dB. Meanwhile, the ASIC solution consumes only 9.3μW, 3.3× lower than the existing backscatter systems for audio transmission."
+    },
+    {
+        "bibtex": "@inproceedings{weiguo2023micnest,\ntitle = {MicNest: Long-Range Instant Acoustic Localization of Drones in Precise Landing},\nauthor = {Wang, Weiguo and Mottola, Luca and He, Yuan and Li, Jinming and Sun, Yimiao and Li, Shuai and Jing, Hua and Wang, Yulei},\nbooktitle = {Proceedings of ACM SenSys},\nyear = {2022}\n}\n",
+        "authors": {
+            "boldAuthors": ["Yimiao Sun"]
+        },
+        "note": "ACM SenSys'22",
+        "resources": {
+            "pdf": "./files/PDF/2022MicNest_SenSys.pdf",
+            "slides": "./files/Slides/2022MicNest_PPT.pdf",
+            "code": null,
+            "home": "https://micnest.github.io/",
+            "award": "https://sensys.acm.org/2022/award/"
+        },
+        "abstract": "We present MicNest: an acoustic localization system enabling precise landing of aerial drones. Drone landing is a crucial step in a drone's operation, especially as high-bandwidth wireless networks, such as 5G, enable beyond-line-of-sight operation in a shared airspace and applications such as instant asset delivery with drones gain traction. In MicNest, multiple microphones are deployed on a landing platform in carefully devised configurations. The drone carries a speaker transmitting purposefully-designed acoustic pulses. The drone may be localized as long as the pulses are correctly detected. Doing so is challenging: i) because of limited transmission power, propagation attenuation, background noise, and propeller interference, the Signal-to-Noise Ratio (SNR) of received pulses is intrinsically low; ii) the pulses experience non-linear Doppler distortion due to the physical drone dynamics while airborne; iii) as location information is to be used during landing, the processing latency must be reduced to effectively feed the flight control loop. To tackle these issues, we design a novel pulse detector, Matched Filter Tree (MFT), whose idea is to convert pulse detection to a tree search problem. We further present three practical methods to accelerate tree search jointly. Our real-world experiments show that MicNest is able to localize a drone 120 m away with 0.53% relative localization error at 20 Hz location update frequency."
+    }
+]

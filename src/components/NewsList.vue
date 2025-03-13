@@ -27,10 +27,10 @@ const showLess = () => {
 </script>
 
 <template>
-  <h2 style="font-size: 18pt">News</h2>
+  <h2 style="font-size: 16pt">News</h2>
   <div class="row items-align-top" v-for="(news, index) in displayedNews" :key="index">
-    <label class="col" :for="`${idPrefix}-${index}`" style="color: #DB2327;font-weight: bold;font-size: 13pt">{{ news.date }}</label>
-    <div class="col flex-start tight-list" :id="`${idPrefix}-${index}`" style="font-size: 13pt" v-html="news.content"></div>
+    <label class="col" :for="`${idPrefix}-${index}`" style="color: #DB2327;font-weight: bold;font-size: 12pt">{{ news.date }}</label>
+    <div class="col flex-start tight-list" :id="`${idPrefix}-${index}`" style="font-size: 12pt" v-html="news.content"></div>
   </div>
   <button v-if="!showAll && newsArr.length > initialCount" @click="showMore" class="toggle-button">
     Show More

@@ -4,6 +4,7 @@ import NewsList from './components/NewsList.vue'
 import EducationList from './components/EducationList.vue'
 import ConfPub from './components/ConfPub.vue'
 import JourPub from './components/JourPub.vue'
+import Selected from './components/Selected.vue'
 import AwardList from './components/AwardList.vue'
 // import SoftwareList from './components/SoftwareList.vue'
 // import TalkList from './components/TalkList.vue'
@@ -16,20 +17,20 @@ import Footer from './components/Footer.vue'
     <hr>
   </header>
 
-  <main>
-    <NewsList />
-    <hr>
-    <EducationList />
-    <hr>
-    <ConfPub />
-    <hr>
-    <JourPub />
-    <hr>
-    <AwardList />
-    <hr>
-    <!-- <TalkList /> -->
-    <!-- <SoftwareList /> -->
-  </main>
+  <NewsList />
+  <hr>
+  <EducationList />
+  <hr>
+  <Selected />
+  <hr>
+  <ConfPub />
+  <hr>
+  <JourPub />
+  <hr>
+  <AwardList />
+  <hr>
+  <!-- <TalkList /> -->
+  <!-- <SoftwareList /> -->
 
   <footer>
     <Footer />

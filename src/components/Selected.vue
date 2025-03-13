@@ -10,7 +10,7 @@ import HomeBadge from './badges/HomeBadge.vue'
 import AwardBadge from './badges/AwardBadge.vue'
 import { AclCsl, Gb7714Csl } from '../utils'
 
-import pubJson from '../content/JourPub.json'
+import pubJson from '../content/Selected.json'
 
 const pubArr = computed(() => {
   let cslConfig = Cite.plugins.config.get('@csl')
@@ -102,7 +102,7 @@ function copyToClipboard(text, pubId, cslTemplateType) {
 </script>
 
 <template>
-  <h2 style="font-size: 16pt">Journal Paper</h2>
+  <h2 style="font-size: 16pt">Selected Paper</h2>
   
   <ol class="pub-list" style=" padding-left: 2em;">
     <li v-for="pub in pubArr.slice(0, visibleCount)" :key="pub.entry.id">
@@ -113,26 +113,6 @@ function copyToClipboard(text, pubId, cslTemplateType) {
         <span>". </span><br>
         <span class="pub" style="font-size: 12pt" v-html="pub.entry.authors"></span>
         <span>. </span>
-      </div>
-      <div>
-        <a class="badge badge-abs" @click="showFlag[pub.entry.id].abs = !showFlag[pub.entry.id].abs">Abstract</a>
-        <a class="badge badge-bib" @click="showFlag[pub.entry.id].bib = !showFlag[pub.entry.id].bib">BibTex</a>
-        <SlidesBadge :slidesUrl="pub.resources.pdf" />
-        <VideoBadge :videoUrl="pub.resources.slides" />
-        <CodeBadge :codeUrl="pub.resources.code" />
-        <DemoBadge :demoUrl="pub.resources.demo" />
-        <HomeBadge :homeUrl="pub.resources.home" />
-        <AwardBadge :awardUrl="pub.resources.award" />
-        
-        <p class="text-block" v-if="showFlag[pub.entry.id].abs">{{ pub.abstract }}</p>
-
-        <div class="text-block" v-if="showFlag[pub.entry.id].bib">
-          <button class="bib" @click.prevent="copyToClipboard(pub.bibtex, pub.entry.id, 'BibTeX')">Copy BibTeX</button>
-          <button class="bib" @click.prevent="copyToClipboard(pub.acl, pub.entry.id, 'ACL')">Copy ACL</button>
-          <button class="bib" @click.prevent="copyToClipboard(pub.gb7714, pub.entry.id, 'GB/T7714')">Copy GB/T7714</button>
-          <span>{{ copyStatus[pub.entry.id] }}</span>
-          <p>{{ pub.bibtex }}</p>
-        </div>
       </div>
     </li>
   </ol>

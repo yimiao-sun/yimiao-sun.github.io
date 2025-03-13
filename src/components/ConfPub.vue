@@ -102,16 +102,16 @@ function copyToClipboard(text, pubId, cslTemplateType) {
 </script>
 
 <template>
-  <h2 style="font-size: 18pt">Conference Paper</h2>
+  <h2 style="font-size: 16pt">Conference Paper</h2>
   
-  <ul class="pub-list" reversed>
+  <ol class="pub-list" style=" padding-left: 2em;">
     <li v-for="pub in pubArr.slice(0, visibleCount)" :key="pub.entry.id">
       <div>
-        <span style="color: #193C6C; font-size: 13pt; font-weight: bold" class="pub note" v-if="pub.note">[{{ pub.note }}]</span>
+        <span style="color: #193C6C; font-size: 12pt; font-weight: bold" class="pub note" v-if="pub.note">[{{ pub.note }}]</span>
         <span> "</span>
-        <span style="font-size: 13pt; text-decoration: underline;" :href="pub.entry.URL" target="_blank">{{ pub.entry.title }}</span>
+        <span style="font-size: 12pt; text-decoration: underline;" :href="pub.entry.URL" target="_blank">{{ pub.entry.title }}</span>
         <span>". </span><br>
-        <span class="pub" style="font-size: 13pt" v-html="pub.entry.authors"></span>
+        <span class="pub" style="font-size: 12pt" v-html="pub.entry.authors"></span>
         <span>. </span>
       </div>
       <div>
@@ -135,7 +135,7 @@ function copyToClipboard(text, pubId, cslTemplateType) {
         </div>
       </div>
     </li>
-  </ul>
+  </ol>
 
   <!-- Show More / Show Less 按钮 -->
   <button @click="toggleShowMore" class="show-more-btn">
@@ -145,7 +145,7 @@ function copyToClipboard(text, pubId, cslTemplateType) {
 
 <style scoped>
 .show-more-btn {
-  margin-top: 10px;
+  margin-top: 5px;
   padding: 6px 12px;
   background-color: #79A9D9;
   color: white;

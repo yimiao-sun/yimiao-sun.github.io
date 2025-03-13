@@ -12,9 +12,9 @@ const idPrefix = "education"
 </script>
 
 <template>
-  <h2 style="font-size: 18pt">Education</h2>
+  <h2 style="font-size: 16pt">Education</h2>
   <div class="row items-align-top" v-for="(education, index) in eduArr" :key="index">
-    <label style="font-size: 13pt" class="col" :for="`${idPrefix}-${index}`">{{ education.date }}</label>
-    <div style="font-size: 13pt" class="col flex-start tight-list" :id="`${idPrefix}-${index}`" v-html="education.content"></div>
+    <label style="font-size: 12pt" class="col" :for="`${idPrefix}-${index}`">{{ education.date }}</label>
+    <div style="font-size: 12pt" class="col flex-start tight-list" :id="`${idPrefix}-${index}`" v-html="education.content"></div>
   </div>
 </template>
