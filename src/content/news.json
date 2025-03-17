@@ -1,37 +1,39 @@
 [
-    {"date": "[2025.03]", "content": "Our paper <i>Satori</i> is accepted by <b>Springer WASA 2025</b>!"},
+    {"date": "[2025.03]", "content": "The journal version of <i>BIFROST</i> is accepted by <b>ACM TOSN</b>!"},
 
-    {"date": "[2025.03]", "content": "Our paper on Wi-Fi Sensing and Metasurface is accepted by <b>Journal of Radars</b>!"},
+    {"date": "[2025.03]", "content": "Our paper <i>MASS</i> on metasurface-assisted Wi-Fi sensing dataset construction is accepted by <b>Springer WASA 2025</b>!"},
+
+    {"date": "[2025.03]", "content": "Our paper on metasurface-assisted Wi-Fi sensing dataset construction is accepted by <b>Journal of Radars</b>!"},
 
     {"date": "[2025.03]", "content": "Our survey paper on mmWave backscatter is accepted by <b>ACM Computing Survey</b>!"},
 
-    {"date": "[2025.03]", "content": "Our paper <i>Satori</i> is accepted by <b>ACM MobiSys 2025</b> (Acceptance rate: 18.0%)!"},
+    {"date": "[2025.03]", "content": "Our paper <i>Satori</i> on analog backscatter is accepted by <b>ACM MobiSys 2025</b> (Acceptance rate: 18.0%)!"},
 
-    {"date": "[2024.12]", "content": "Our paper <i>QuinID</i> is accepted by <b>ACM MobiCom 2025</b> (Acceptance rate: 17.1%%)!"},
+    {"date": "[2024.12]", "content": "Our paper <i>QuinID</i> on parallel RFID is accepted by <b>ACM MobiCom 2025</b> (Acceptance rate: 17.1%%)!"},
 
     {"date": "[2024.11]", "content": "The journal version of <i>Trident</i> is accepted by <b>IEEE/ACM ToN</b>!"},
 
-    {"date": "[2024.11]", "content": "Our work <i>ZuMa</i> is accepted by <b>IEEE TMC</b>!"},
+    {"date": "[2024.11]", "content": "Our work <i>ZuMa</i> on mmWave real-time sensing is accepted by <b>IEEE TMC</b>!"},
 
     {"date": "[2024.08]", "content": "Our three works <i>mmHRR</i>, <i>mmTAI</i> and <i>mmJaw</i> are accepted by <b>IEEE ICPADS 2024</b>!"},
 
-    {"date": "[2024.04]", "content": "Our paper <i>ElaSe</i> is accepted by <b>IEEE/ACM IWQoS 2024</b> (Acceptance rate: 24.8%)!"},
+    {"date": "[2024.04]", "content": "Our paper <i>ElaSe</i> on 5G vRAN sensing is accepted by <b>IEEE/ACM IWQoS 2024</b> (Acceptance rate: 24.8%)!"},
 
     {"date": "[2023.12]", "content": "The journal version of <i>mmHawkeve</i> is accepted by <b>ACM TOSN</b>!"},
 
-    {"date": "[2023.12]", "content": "Our paper <i>Trident</i> is accepted by <b>IEEE INFOCOM 2024</b> (Acceptance rate: 19.5%)!"},
+    {"date": "[2023.12]", "content": "Our paper <i>Trident</i> on backscatter network is accepted by <b>IEEE INFOCOM 2024</b> (Acceptance rate: 19.5%)!"},
 
     {"date": "[2023.10]", "content": "The journal version of <i>AIM</i> is accepted by <b>IEEE TMC</b>!"},
 
     {"date": "[2023.10]", "content": "Our SenSys paper <i>MicNest</i> is invited as Research Highlight article in <b>ACM GetMobile Magazine</b>!"},
     
-    {"date": "[2023.09]", "content": "Our paper <i>BIFROST</i> is accepted by <b>ACM SenSys 2023</b>!"},
+    {"date": "[2023.09]", "content": "Our paper <i>BIFROST</i> on WiFi localization is accepted by <b>ACM SenSys 2023</b>!"},
     
-    {"date": "[2023.06]", "content": "Our paper <i>Meta-Speaker</i> is accepted by <b>ACM MobiCom 2023</b> (Acceptance rate: 24.4%)!"},
+    {"date": "[2023.06]", "content": "Our paper <i>Meta-Speaker</i> on acoustic sensing is accepted by <b>ACM MobiCom 2023</b> (Acceptance rate: 24.4%)!"},
     
     {"date": "[2023.06]", "content": "The journal version of <i>MicNest</i> is accepted by <b>IEEE TMC</b>!"},
 
-    {"date": "[2023.06]", "content": "Our paper <i>mmHawkeve</i> is accepted by <b>IEEE SECON 2023</b> (Acceptance rate: 23.6%)!"},
+    {"date": "[2023.06]", "content": "Our paper <i>mmHawkeve</i> on mmWave drone trackingis accepted by <b>IEEE SECON 2023</b> (Acceptance rate: 23.6%)!"},
     
     {"date": "[2023.06]", "content": "Our survey paper on mmWave-based human sensing is accepted by <b>IEEE Communication Survey & Tutorial</b>!"},
     
