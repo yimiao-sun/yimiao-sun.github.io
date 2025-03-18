@@ -1,5 +1,16 @@
 [
     {
+        "bibtex": "@article{sun2025exploiting,\ntitle = {Exploiting Dispersion Effect of Signals for Accurate Indoor WiFi Localization},\nauthor = {Sun, Yimiao and He, Yuan and Zhang, Jiacheng and Na, Xin and Chen, Yande and Wang, Weiguo and Guo, Xiuzhen},\njournal = {ACM Transactions on Sensor Networks},\nyear = {2025},\nvolume = {},\nnumber = {},\npages = {}\n}\n",
+        "authors": {
+            "boldAuthors": ["Yimiao Sun"]
+        },
+        "note": "ACM TOSN'25",
+        "resources": {
+            "pdf": ""
+        },
+        "abstract": "WiFi-based device localization is a key technology for smart applications, while most of which rely on LoS signals to work. However, in real-world indoor environments, very few LoS signals are usable for accurate localization. This paper presents Bifrost, a novel hardware-software co-design to cope with this practical problem. The core idea of Bifrost is to reinvent WiFi signals to provide sufficient LoS signals. Specifically, we present a low-cost plug-in design of leaky wave antenna (LWA) that can generate orthogonal polarized signals: On one hand, LWA disperses signals of different frequencies to different angles, thus providing AoA information for the localized target. On the other hand, the target further leverages the antenna polarization mismatch to distinguish AoAs from different LWAs. Besides, fine-grained information in CSI is exploited to mitigate multipath and noise. Besides, a dedicated Kalman filter is proposed to facilitate the cooperation of Bifrost and SpotFi, a state-of-the-art approach, to enhance the availability and accuracy of SpotFi. The evaluation results show that the median localization error of Bifrost is 0.81m, 52.35% less than that of SpotFi. When combined with Bifrost to work in realistic settings, SpotFi can reduce the localization error by 33.54%."
+    },
+    {
         "bibtex": "@article{sun2025survey,\ntitle = {A Survey of mmWave Backscatter: Applications, Platforms, and Technologies},\nauthor = {Sun, Yimiao and He, Yuan and Zou, Yang and Gu, Jiaming and Yang, Xiaolei and Zhang, Jia and Mao, Ziheng},\njournal = {ACM Computing Surveys},\nyear = {2025},\nvolume = {},\nnumber = {},\npages = {}\n}\n",
         "authors": {
             "boldAuthors": ["Yimiao Sun"]

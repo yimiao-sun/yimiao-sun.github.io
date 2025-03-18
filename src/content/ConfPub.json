@@ -1,13 +1,25 @@
 [
     {
+        "bibtex": "@inproceedings{gu2025mass,\ntitle = {MASS: Empowering Wi-Fi Human Sensing with Metasurface-Assisted Sample Synthesis},\nauthor = {Gu, Jiaming and Chen, Shaonan and Sun, Yimiao and Xie, Yadong and Xi, Rui and Cheng, Qiang and He, Yuan},\nbooktitle = {Proceedings of Springer WASA}, \nyear = {2025}\n}\n",
+        "authors": {
+            "boldAuthors": ["Yimiao Sun"]
+        },
+        "note": "Springer WASA'25",
+        "resources": {
+            "pdf": "",
+            "slides": ""
+        },
+        "abstract": "Wi-Fi human sensing has attracted numerous research studies over the past decade. The rapid advancement of machine learning technology further boosts the development of Wi-Fi human sensing. However, current Wi-Fi human sensing suffers from the \"data scarcity\" problem: all the existing proposals require collecting a large amount of humanbased datasets to train the sensing models, which is labor-intensive and may raise ethical concerns in certain scenarios. This obstacle seriously restricts the size, quality, and diversity of available datasets, thereby affecting the sensing performance in terms of accuracy and cross-domain applicability. In order to solve this problem, we in this paper propose Metasurface-Assisted Sample Synthesis (MASS), a novel approach to synthesize high-fidelity Wi-Fi sensing samples that effectively capture both the essential features of human motion and environment-specific multipath characteristics, without requiring human involvement. The evaluation results show that MASS is effective in augmenting the training set, improving the classification accuracy by 18%, and enhancing the cross-domain sensing accuracy by 22%. These findings underscore the potential of MASS to facilitate the creation of high-quality, diverse datasets with minimal human involvement and associated labor costs."
+    },
+    {
         "bibtex": "@inproceedings{zou2025satori,\ntitle = {Satori: In-band Analog Backscatter for Audio Transmission},\nauthor = {Zou, Yang and Na, Xin and Sun, Yimiao and Chen, Yande and He, Yuan},\nbooktitle = {Proceedings of ACM MobiSys}, \nyear = {2025}\n}\n",
         "authors": {
             "boldAuthors": ["Yimiao Sun"]
         },
         "note": "ACM MobiSys'25",
         "resources": {
-            "pdf": "./files/PDF/xxx.pdf",
-            "slides": "./files/Slides/xxx.pdf"
+            "pdf": "",
+            "slides": ""
         },
         "abstract": "In IoT applications such as environmental monitoring and industrial security surveillance, audio sensors are increasingly used, among which wireless sensors are preferred. In order to achieve a sustained transmission, low-power wireless technology such as backscatter has been widely considered. However, existing backscatter systems encounter difficulties in audio transmissions due to the high power consumption from the complicated digital processing and fast frequency-shifting clocks. In this paper, we propose Satori, the first-of-its-kind in-band analog backscatter system for audio transmission with ultra-low power consumption. Satori eliminates the need for in-place digital processing by directly embedding analog audio voltages into backscattered WiFi symbols through analog modulation. It also avoids the power consumption of the frequency-shifting clock by transmitting the audio within the excitation WiFi signal's frequency band. We implement the Satori prototype and evaluate it under various settings. The experimental results indicate that Satori achieves audio transmission with a SNR greater than 18 dB. Meanwhile, the ASIC solution consumes only 9.3μW, 3.3× lower than the existing backscatter systems for audio transmission."
     },
@@ -18,8 +30,8 @@
         },
         "note": "ACM MobiCom'25",
         "resources": {
-            "pdf": "./files/PDF/xxx.pdf",
-            "slides": "./files/Slides/xxx.pdf"
+            "pdf": "",
+            "slides": ""
         },
         "abstract": "Parallelizing passive Radio Frequency Identification (RFID) reading is an arguably crucial, yet unsolved challenge in modern IoT applications. Existing approaches remain limited to time-division operations and fail to read multiple tags simultaneously. In this paper, we introduce QuinID, the first frequency-division multiple access (FDMA) RFID system to achieve fully parallel reading. We innovatively exploit the frequency selectivity of the tag antenna rather than a conventional digital FDMA, bypassing the power and circuitry constraint of RFID tags. Specifically, we delicately design the frequency-selective antenna based on surface acoustic wave (SAW) components to achieve extreme narrow-band response, so that QuinID tags (i.e., QuinTags) operate exclusively within their designated frequency bands. By carefully designing the matching network and canceling various interference, a customized QuinReader communicates simultaneously with multiple QuinTags across distinct bands. QuinID maintains high compatibility with commercial RFID systems and presents a tag cost of less than 10 cents. We implement a 5-band QuinID system and evaluate its performance under various settings. The results demonstrate a fivefold increase in read rate, reaching up to 5000 reads per second."
     },
