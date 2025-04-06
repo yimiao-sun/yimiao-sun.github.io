@@ -1,17 +1,28 @@
 [
     {
+        "bibtex": "@article{xi2025review,\ntitle = {A Review on mmWave-based Human Perception},\nauthor = {Xi, Rui and Zhang, Jia and Sun, Yimiao and He, Yuan},\njournal = {Journal of Software},\nyear = {2025},\nvolume = {},\nnumber = {},\npages = {}\n}\n",
+        "authors": {
+            "boldAuthors": ["Yimiao Sun"]
+        },
+        "note": "软件学报'25",
+        "resources": {
+            "pdf": "./files/PDF/.pdf"
+        },
+        "abstract": "With the rapid development of embedded technology, mobile computing, and Internet of Things (IoT), more and more sensing devices have penetrated into people’s daily lives, such as smartphones, cameras, smart bracelets, smart routers, headsets and other devices. The built-in sensors can easily collect personal information like locations, activities, vital signs, and social connections, giving birth to a new class of sensing applications - Human-Centric Sensing. Compared with traditional sensing methods, such as wearable-based sensing, vision-based sensing, wireless signal-based sensing, etc., millimeter wave (mmWave) signals have a series of advantages, such as high accuracy, non-line-of-sight, passive sensing (no need to carry sensors), high resolution, easy deployment, and good environmental robustness. mmWave-based sensing has become a research hotspot in academia and industry in recent years, and it can realize the non-contact fine-grained perception of human activities and physical signs. Based on the survey of recent studies, this paper first analyzes the background and research significance of mmWave-based human sensing. This paper categorizes existing methods into four classes including tracking and positioning, motion recognition, biometrics measurement, and human imaging, and introduces commonly used publicly available datasets. Finally the potential research challenges and future directions are discussed, which is promising to achieve accurate, ubiquitous, and stable human perception."
+    },
+    {
         "bibtex": "@article{sun2025exploiting,\ntitle = {Exploiting Dispersion Effect of Signals for Accurate Indoor WiFi Localization},\nauthor = {Sun, Yimiao and He, Yuan and Zhang, Jiacheng and Na, Xin and Chen, Yande and Wang, Weiguo and Guo, Xiuzhen},\njournal = {ACM Transactions on Sensor Networks},\nyear = {2025},\nvolume = {},\nnumber = {},\npages = {}\n}\n",
         "authors": {
             "boldAuthors": ["Yimiao Sun"]
         },
         "note": "ACM TOSN'25",
         "resources": {
-            "pdf": ""
+            "pdf": "./files/PDF/2025BIFROST_TOSN.pdf"
         },
         "abstract": "WiFi-based device localization is a key technology for smart applications, while most of which rely on LoS signals to work. However, in real-world indoor environments, very few LoS signals are usable for accurate localization. This paper presents Bifrost, a novel hardware-software co-design to cope with this practical problem. The core idea of Bifrost is to reinvent WiFi signals to provide sufficient LoS signals. Specifically, we present a low-cost plug-in design of leaky wave antenna (LWA) that can generate orthogonal polarized signals: On one hand, LWA disperses signals of different frequencies to different angles, thus providing AoA information for the localized target. On the other hand, the target further leverages the antenna polarization mismatch to distinguish AoAs from different LWAs. Besides, fine-grained information in CSI is exploited to mitigate multipath and noise. Besides, a dedicated Kalman filter is proposed to facilitate the cooperation of Bifrost and SpotFi, a state-of-the-art approach, to enhance the availability and accuracy of SpotFi. The evaluation results show that the median localization error of Bifrost is 0.81m, 52.35% less than that of SpotFi. When combined with Bifrost to work in realistic settings, SpotFi can reduce the localization error by 33.54%."
     },
     {
-        "bibtex": "@article{sun2025survey,\ntitle = {A Survey of mmWave Backscatter: Applications, Platforms, and Technologies},\nauthor = {Sun, Yimiao and He, Yuan and Zou, Yang and Gu, Jiaming and Yang, Xiaolei and Zhang, Jia and Mao, Ziheng},\njournal = {ACM Computing Surveys},\nyear = {2025},\nvolume = {},\nnumber = {},\npages = {}\n}\n",
+        "bibtex": "@article{sun2025survey,\ntitle = {A Survey of mmWave Backscatter: Applications, Platforms, and Technologies},\nauthor = {Sun, Yimiao and He, Yuan and Zou, Yang and Gu, Jiaming and Yang, Xiaolei and Zhang, Jia and Mao, Ziheng},\njournal = {ACM Computing Surveys},\nyear = {2025},\nvolume = {57},\nnumber = {9},\npages = {1-36}\n}\n",
         "authors": {
             "boldAuthors": ["Yimiao Sun"]
         },
@@ -26,7 +37,7 @@
         "authors": {
             "boldAuthors": ["Yimiao Sun"]
         },
-        "note": "Journal of Radars'25",
+        "note": "雷达学报'25",
         "resources": {
             "pdf": "./files/PDF/2025Fall_radar_journal.pdf"
         },

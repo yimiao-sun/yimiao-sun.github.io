@@ -20,7 +20,7 @@ const description = computed(() => {
     </div>
   </div>
   <div class="row flex-start">
-    <div style="color: #193C6C; font-size: 12pt" class="m-r1 m-tb-08" v-for="(contact, key) in metaContent.contact" :key="key">
+    <div style="color: black; font-size: 12pt; font-weight: bold" class="m-r1 m-tb-08" v-for="(contact, key) in metaContent.contact" :key="key">
       <i :class="contact.icon"></i>
       <a :href="contact.url" target="_blank" class="custom-link">{{ key }}</a>
     </div>
@@ -29,11 +29,11 @@ const description = computed(() => {
 
 <style scoped>
 .custom-link {
-  color: #193C6C;
+  color: rgba(28, 28, 28, 0.8);
   text-decoration: none;
 }
 .custom-link:hover {
-  color: #193C6C;
+  color: rgba(28, 28, 28, 0.8);
   text-decoration: underline;
 }
 </style>
