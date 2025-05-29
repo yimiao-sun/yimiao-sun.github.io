@@ -1,17 +1,28 @@
 [
     {
-        "bibtex": "@article{xi2025review,\ntitle = {A Review on mmWave-based Human Perception},\nauthor = {Xi, Rui and Zhang, Jia and Sun, Yimiao and He, Yuan},\njournal = {Journal of Software},\nyear = {2025},\nvolume = {},\nnumber = {},\npages = {}\n}\n",
+        "bibtex": "@article{chen2025sensing,\ntitle = {Sensing Resource Scheduling in 5G vRAN: An Elastic Approach},\nauthor = {Chen, Yulong and Guo, Junchen and Sun, Yimiao and Yao, Haipeng and Liu, Yunhao and He, Yuan},\njournal = {ACM Transactions on Internet of Things},\nyear = {2025},\nvolume = {},\nnumber = {},\npages = {}\n}\n",
+        "authors": {
+            "boldAuthors": ["Yimiao Sun"]
+        },
+        "note": "ACM TIOT'25",
+        "resources": {
+            "pdf": "./files/PDF/.pdf"
+        },
+        "abstract": "The emerging integrated sensing and communication (ISAC) technologies show great potential for 5G NR, offering a new wireless-sensing infrastructure paradigm. Users can benefit from pervasive sensing applications in various scenarios without communication penalties. Given the diverse demands for sensing resources across different sensing tasks, elastic resource scheduling becomes crucial, particularly when resources are constrained. However, existing approaches often treat users equally, limiting the applicability in dealing with diverse sensing tasks in the real world. In this paper, we introduce ElaSe, a pioneering sensing technique that enables elastic and prompt scheduling of sensing resources. At the core of ElaSe is the exploration of the user’s state to precisely determine the sensing resource requirements and schedule resources accordingly. We build the first model for matching sensing resources with sensing demands, and further propose a predictive scheduling scheme to eliminate delays by leveraging the 5G virtualized radio access network (vRAN). ElaSe has been implemented on a CPU-based 5G vRAN and commercial 5G user equipments. We conduct experiments to evaluate the performance of ElaSe under different settings. The results demonstrate that ElaSe outperforms the non-scheduling scheme, with a 34% reduction in trajectory tracking error and a 92% decrease in resource allocation error."
+    },
+    {
+        "bibtex": "@article{xi2025review,\ntitle = {Review on mmWave-based Human Perception},\nauthor = {Xi, Rui and Zhang, Jia and Sun, Yimiao and He, Yuan},\njournal = {Journal of Software},\nyear = {2025},\nvolume = {},\nnumber = {},\npages = {}\n}\n",
         "authors": {
             "boldAuthors": ["Yimiao Sun"]
         },
         "note": "软件学报'25",
         "resources": {
-            "pdf": "./files/PDF/.pdf"
+            "pdf": "./files/PDF/2025mmWave_jos.pdf"
         },
         "abstract": "With the rapid development of embedded technology, mobile computing, and Internet of Things (IoT), more and more sensing devices have penetrated into people’s daily lives, such as smartphones, cameras, smart bracelets, smart routers, headsets and other devices. The built-in sensors can easily collect personal information like locations, activities, vital signs, and social connections, giving birth to a new class of sensing applications - Human-Centric Sensing. Compared with traditional sensing methods, such as wearable-based sensing, vision-based sensing, wireless signal-based sensing, etc., millimeter wave (mmWave) signals have a series of advantages, such as high accuracy, non-line-of-sight, passive sensing (no need to carry sensors), high resolution, easy deployment, and good environmental robustness. mmWave-based sensing has become a research hotspot in academia and industry in recent years, and it can realize the non-contact fine-grained perception of human activities and physical signs. Based on the survey of recent studies, this paper first analyzes the background and research significance of mmWave-based human sensing. This paper categorizes existing methods into four classes including tracking and positioning, motion recognition, biometrics measurement, and human imaging, and introduces commonly used publicly available datasets. Finally the potential research challenges and future directions are discussed, which is promising to achieve accurate, ubiquitous, and stable human perception."
     },
     {
-        "bibtex": "@article{sun2025exploiting,\ntitle = {Exploiting Dispersion Effect of Signals for Accurate Indoor WiFi Localization},\nauthor = {Sun, Yimiao and He, Yuan and Zhang, Jiacheng and Na, Xin and Chen, Yande and Wang, Weiguo and Guo, Xiuzhen},\njournal = {ACM Transactions on Sensor Networks},\nyear = {2025},\nvolume = {},\nnumber = {},\npages = {}\n}\n",
+        "bibtex": "@article{sun2025exploiting,\ntitle = {Exploiting Dispersion Effect of Signals for Accurate Indoor WiFi Localization},\nauthor = {Sun, Yimiao and He, Yuan and Zhang, Jiacheng and Na, Xin and Chen, Yande and Wang, Weiguo and Guo, Xiuzhen},\njournal = {ACM Transactions on Sensor Networks},\nyear = {2025},\nvolume = {21},\nnumber = {3},\npages = {1-21}\n}\n",
         "authors": {
             "boldAuthors": ["Yimiao Sun"]
         },
