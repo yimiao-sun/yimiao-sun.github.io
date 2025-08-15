@@ -19,7 +19,7 @@
         "note": "ACM MobiSys'25",
         "resources": {
             "pdf": "./files/PDF/2025Satori_MobiSys.pdf",
-            "slides": ""
+            "slides": "./files/Slides/2025Satori_PPT.pdf"
         },
         "abstract": "In IoT applications such as environmental monitoring and industrial security surveillance, audio sensors are increasingly used, among which wireless sensors are preferred. In order to achieve a sustained transmission, low-power wireless technology such as backscatter has been widely considered. However, existing backscatter systems encounter difficulties in audio transmissions due to the high power consumption from the complicated digital processing and fast frequency-shifting clocks. In this paper, we propose Satori, the first-of-its-kind in-band analog backscatter system for audio transmission with ultra-low power consumption. Satori eliminates the need for in-place digital processing by directly embedding analog audio voltages into backscattered WiFi symbols through analog modulation. It also avoids the power consumption of the frequency-shifting clock by transmitting the audio within the excitation WiFi signal's frequency band. We implement the Satori prototype and evaluate it under various settings. The experimental results indicate that Satori achieves audio transmission with a SNR greater than 18 dB. Meanwhile, the ASIC solution consumes only 9.3μW, 3.3× lower than the existing backscatter systems for audio transmission."
     },

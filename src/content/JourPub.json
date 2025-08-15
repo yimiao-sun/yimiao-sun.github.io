@@ -1,12 +1,23 @@
 [
     {
-        "bibtex": "@article{chen2025sensing,\ntitle = {Sensing Resource Scheduling in 5G vRAN: An Elastic Approach},\nauthor = {Chen, Yulong and Guo, Junchen and Sun, Yimiao and Yao, Haipeng and Liu, Yunhao and He, Yuan},\njournal = {ACM Transactions on Internet of Things},\nyear = {2025},\nvolume = {},\nnumber = {},\npages = {}\n}\n",
+        "bibtex": "@article{qunyan2025multi,\ntitle = {Multi-Person Respiration Detection: A Digital Programmable Metasurface Analysis Approach},\nauthor = {Zhou, Qunyan and Sun, Yimiao and Ma, Jitong and Chen, Yulong and Wang, Zijun and Wang, Siran and Dai, Junyan and Li, Huidong and He, Yuan and Cheng, Qiang},\njournal = {IEEE Internet of Things Journal},\nyear = {2025},\nvolume = {},\nnumber = {},\npages = {}\n}\n",
+        "authors": {
+            "boldAuthors": ["Yimiao Sun"]
+        },
+        "note": "IEEE IOTJ'25",
+        "resources": {
+            "pdf": "./files/PDF/2025IOTJ.pdf"
+        },
+        "abstract": "The rapid development of wireless sensing technology has opened new possibilities for non-contact health monitoring. Among them, respiration is crucial information for assessing vital signs. However, traditional methods face challenges of signal interference and overlap in multi-person environments. In this work, we propose a novel method for multi-person respiration detection using a digital programmable metasurface (DPM). This method takes advantage of the modulation characteristics of the DPM in the time and space domain. It divides the Channel State Information (CSI) from the Wi-Fi transmitter into multiple sub-signals in the time domain and modulates the radiation directions of the sub-signals for space redistribution. These signals are received by the Wi-Fi receiver and recombined to restore the CSI in each direction, thus enabling the accurate extraction of respiration signals from targets in different directions. Experimental results show that this method can directionally sense the human respiration information in a specific direction under the static working mode. Under dynamic scanning mode, it can effectively separate and detect the respiration information of four people from different directions. This system has great potential for applications in wireless communication, healthcare, and smart home environments."
+    },
+    {
+        "bibtex": "@article{chen2025sensing,\ntitle = {Sensing Resource Scheduling in 5G vRAN: An Elastic Approach},\nauthor = {Chen, Yulong and Guo, Junchen and Sun, Yimiao and Yao, Haipeng and Liu, Yunhao and He, Yuan},\njournal = {ACM Transactions on Internet of Things},\nyear = {2025},\nvolume = {6},\nnumber = {19},\npages = {1-24}\n}\n",
         "authors": {
             "boldAuthors": ["Yimiao Sun"]
         },
         "note": "ACM TIOT'25",
         "resources": {
-            "pdf": "./files/PDF/.pdf"
+            "pdf": "./files/PDF/2025TIOT.pdf"
         },
         "abstract": "The emerging integrated sensing and communication (ISAC) technologies show great potential for 5G NR, offering a new wireless-sensing infrastructure paradigm. Users can benefit from pervasive sensing applications in various scenarios without communication penalties. Given the diverse demands for sensing resources across different sensing tasks, elastic resource scheduling becomes crucial, particularly when resources are constrained. However, existing approaches often treat users equally, limiting the applicability in dealing with diverse sensing tasks in the real world. In this paper, we introduce ElaSe, a pioneering sensing technique that enables elastic and prompt scheduling of sensing resources. At the core of ElaSe is the exploration of the user’s state to precisely determine the sensing resource requirements and schedule resources accordingly. We build the first model for matching sensing resources with sensing demands, and further propose a predictive scheduling scheme to eliminate delays by leveraging the 5G virtualized radio access network (vRAN). ElaSe has been implemented on a CPU-based 5G vRAN and commercial 5G user equipments. We conduct experiments to evaluate the performance of ElaSe under different settings. The results demonstrate that ElaSe outperforms the non-scheduling scheme, with a 34% reduction in trajectory tracking error and a 92% decrease in resource allocation error."
     },
@@ -44,7 +55,7 @@
         "abstract": "As a key enabling technology of the Internet of Things (IoT) and 5G communication networks, millimeter wave (mmWave) backscatter has undergone noteworthy advancements and brought significant improvement to prevailing sensing and communication systems. Past few years have witnessed growing efforts in innovating mmWave backscatter transmitters (e.g., tags and metasurfaces) and the corresponding techniques, which provide efficient information embedding and fine-grained signal manipulation for mmWave backscatter technologies. These efforts have greatly enabled a variety of appealing applications, such as long-range localization, roadside-to-vehicle communication, coverage optimization and large-scale identification. In this paper, we carry out a comprehensive survey to systematically summarize the works related to the topic of mmWave backscatter. Firstly, we introduce the scope of this survey and provide a taxonomy to distinguish two categories of mmWave backscatter research based on the operating principle of the backscatter transmitter: modulation-based and relay-based. Furthermore, existing works in each category are grouped and introduced in detail, with their common applications, platforms and technologies, respectively. Finally, we elaborate on potential directions and discuss related surveys in this area."
     },
     {
-        "bibtex": "@article{chen2025fall,\ntitle = {Fall Feature Simulation and Wi-Fi Sensing Dataset Construction Based on Time-Domain Digital Coding Metasurface},\nauthor = {Chen, Shaonan and Gu, Jiaming and Xu, Chao and Sun, Yimiao and Wang, Siran and Chen, Zhanye and Liu, Shuo and Li, Huidong and Dai, Junyan and Cheng, Qiang and He, Yuan},\njournal = {Journal of Radars},\nyear = {2025},\nvolume = {},\nnumber = {},\npages = {}\n}\n",
+        "bibtex": "@article{chen2025fall,\ntitle = {Fall Feature Simulation and Wi-Fi Sensing Dataset Construction Based on Time-Domain Digital Coding Metasurface},\nauthor = {Chen, Shaonan and Gu, Jiaming and Xu, Chao and Sun, Yimiao and Wang, Siran and Chen, Zhanye and Liu, Shuo and Li, Huidong and Dai, Junyan and Cheng, Qiang and He, Yuan},\njournal = {Journal of Radars},\nyear = {2025},\nvolume = {14},\nnumber = {R24247},\npages = {950}\n}\n",
         "authors": {
             "boldAuthors": ["Yimiao Sun"]
         },
