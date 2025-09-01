@@ -80,7 +80,17 @@ const description = computed(() => {
   justify-content: space-between;
   gap: 12px;
   width: 100%;
-  margin-bottom: 0px; /* 与 desc 的间距，可按需调整 */
+  margin-bottom: 0; /* Changed from 0px to 0 */
+}
+
+/* 顶部一行：姓名 + 图标（右对齐） */
+.top-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  margin-bottom: 0px; /* Changed from 0px to 0 */
 }
 
 .name {
@@ -99,16 +109,11 @@ const description = computed(() => {
   color: #23380C;
 }
 
-/* 让 desc 最后一个段落没有下外边距，避免视觉上的尾部空白 */
-.desc p:last-child {
-  margin-bottom: -10px;
+.desc :last-child {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
 }
 
-/* 有些 markdown 转换器可能会产生 <p>&nbsp;</p> 这样的空段，强制隐藏纯空段落 */
-.desc p:empty,
-.desc p:empty::before {
-  display: none;
-}
 
 /* contacts：与 name 同一行右侧 */
 .contacts {
