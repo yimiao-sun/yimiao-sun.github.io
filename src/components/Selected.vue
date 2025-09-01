@@ -102,20 +102,20 @@ function copyToClipboard(text, pubId, cslTemplateType) {
 </script>
 
 <template>
-  <h2 style="font-size: 16pt">Selected Paper</h2>
-  
-  <ol class="pub-list" style=" padding-left: 2em;">
+  <h2 style="font-size: 16pt; color: #23380C;">Selected Paper</h2>
+
+  <ul class="pub-list">
     <li v-for="pub in pubArr.slice(0, visibleCount)" :key="pub.entry.id">
-      <div>
-        <span style="color: #193C6C; font-size: 12pt; font-weight: bold" class="pub note" v-if="pub.note">[{{ pub.note }}]</span>
+      <div class="pub-header" style="color: #23380C;">
+        <button v-if="pub.note" class="note-btn">{{ pub.note }}</button>
         <span> "</span>
-        <span style="font-size: 12pt; text-decoration: underline;" :href="pub.entry.URL" target="_blank">{{ pub.entry.title }}</span>
+        <a style="font-size: 12pt; text-decoration: underline; color: #23380C;" :href="pub.entry.URL" target="_blank">{{ pub.entry.title }}</a>
         <span>". </span><br>
-        <span class="pub" style="font-size: 12pt" v-html="pub.entry.authors"></span>
+        <span class="pub" style="font-size: 12pt; color: #23380C;" v-html="pub.entry.authors"></span>
         <span>. </span>
       </div>
     </li>
-  </ol>
+  </ul>
 
   <!-- Show More / Show Less 按钮 -->
   <button @click="toggleShowMore" class="show-more-btn">
@@ -124,17 +124,61 @@ function copyToClipboard(text, pubId, cslTemplateType) {
 </template>
 
 <style scoped>
-.show-more-btn {
-  margin-top: 5px;
-  padding: 6px 12px;
-  background-color: #79A9D9;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
+.pub-list {
+  padding-left: 1em; /* 增加左边距以容纳 bullet */
+  list-style: disc; /* 使用实心圆点作为 bullet */
+  margin: 0;
+  color: #23380C; /* 确保列表项的默认文本颜色 */
 }
 
-.show-more-btn:hover {
-  background-color: #117BB2;
+/* 每条之间的间距 */
+.pub-list li {
+  margin-bottom: 8px;
 }
+
+/* 使 note 显示为按钮样式，参考 Show More 的配色，边框颜色更深 */
+.note-btn {
+  background-color: #CDD5B8; /* 与 show-more-btn 保持一致的背景色 */
+  color: #23380C; /* 修改为 #23380C */
+  border: 2px solid #23380C; /* 更深的边框色，与文本颜色一致 */
+  padding: 0px 8px;
+  border-radius: 9px;
+  font-size: 12pt;
+  font-weight: normal; /* 保持加粗 */
+  cursor: default;
+  margin-right: 8px;
+  transition: background-color 0.15s ease, transform 0.15s ease;
+}
+/* note-btn 不太需要 hover 效果，因为 cursor 是 default */
+/* .note-btn:hover {
+  background-color: #C0CBB7;
+  transform: scale(1.03);
+} */
+
+
+/* 保持原有的 Show More / Show Less 按钮样式 */
+.show-more-btn {
+  margin-top: 5px;
+  padding: 3px 12px;
+  background-color: #D7DFCF;
+  color: #966A4A;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold; /* 添加此行以加粗字体 */
+  transition: background-color 0.15s ease, transform 0.15s ease; /* 添加过渡效果 */
+}
+.show-more-btn:hover {
+  background-color: #C0CBB7; /* 修改此处，使颜色变深 */
+  transform: scale(1.03);
+}
+
+/* 适当分组标题和控制按钮布局（可按需调整） */
+.pub-header {
+  display: block; /* 保持为块级元素，便于内容换行 */
+  color: #23380C; /* 确保 pub-header 内部的默认文本颜色正确 */
+}
+
+/* 之前 ConfPub.vue 中的 pub-controls 和 bib 样式在这里似乎不适用，因为相关的元素已移除。
+   如果未来需要，请根据实际内容重新添加或调整。*/
 </style>

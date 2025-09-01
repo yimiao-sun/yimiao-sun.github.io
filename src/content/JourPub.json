@@ -1,5 +1,16 @@
 [
     {
+        "bibtex": "@article{yuan2025rf,\ntitle = {RF Computing: A New Realm of IoT Research},\nauthor = {Yuan He and Yimiao Sun and Xiuzhen Guo},\njournal = {Journal of Computer Science and Technology},\nyear = {2025},\nvolume = {40},\nnumber = {4},\npages = {1-16}\n}\n",
+        "authors": {
+            "boldAuthors": ["Yimiao Sun"]
+        },
+        "note": "JCST'25",
+        "resources": {
+            "pdf": "./files/PDF/2025RFComputing.pdf"
+        },
+        "abstract": "Current Internet of Things (IoT) systems encounter substantial challenges in realizing ubiquitous sensing and connectivity, characterized by constrained sensing coverage, prohibitive deployment costs, and energy inefficiencies inherent in conventional digital-centric architectures. This paper presents RF Computing, an innovative paradigm that exploits radio frequency (RF) signals to simultaneously serve as information carriers and computational operands. By enabling direct information processing through RF signal manipulation in the RF domain, RF Computing effectively bypasses the limitations of traditional digital systems, delivering exceptional energy efficiency and superior performance characteristics. We provide a systematic definition of RF Computing, classify its operational modalities, and showcase representative applications that highlight its transformative potential. The existing research landscape is organized into three principal categories: information injection, transformation, and augmentation. Furthermore, we delineate critical open challenges, including the development of unified theoretical models, RF resource management strategies, analog-digital co-design methodologies, and programming frameworks for RF Computing systems. Finally, we propose promising directions to propel this emerging field forward."
+    },    
+    {
         "bibtex": "@article{qunyan2025multi,\ntitle = {Multi-Person Respiration Detection: A Digital Programmable Metasurface Analysis Approach},\nauthor = {Zhou, Qunyan and Sun, Yimiao and Ma, Jitong and Chen, Yulong and Wang, Zijun and Wang, Siran and Dai, Junyan and Li, Huidong and He, Yuan and Cheng, Qiang},\njournal = {IEEE Internet of Things Journal},\nyear = {2025},\nvolume = {},\nnumber = {},\npages = {}\n}\n",
         "authors": {
             "boldAuthors": ["Yimiao Sun"]

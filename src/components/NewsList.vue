@@ -27,10 +27,10 @@ const showLess = () => {
 </script>
 
 <template>
-  <h2 style="font-size: 16pt">News</h2>
+  <h2 style="font-size: 16pt; color: #23380C;">News</h2>
   <div class="row items-align-top" v-for="(news, index) in displayedNews" :key="index">
-    <label class="col" :for="`${idPrefix}-${index}`" style="color: #DB2327;font-weight: bold;font-size: 12pt">{{ news.date }}</label>
-    <div class="col flex-start tight-list" :id="`${idPrefix}-${index}`" style="font-size: 12pt" v-html="news.content"></div>
+    <label class="col" :for="`${idPrefix}-${index}`" style="color: #23380C; font-weight: bold; font-size: 12pt">{{ news.date }}</label>
+    <div class="col flex-start tight-list" :id="`${idPrefix}-${index}`" style="font-size: 12pt; color: #23380C;" v-html="news.content"></div>
   </div>
   <button v-if="!showAll && newsArr.length > initialCount" @click="showMore" class="toggle-button">
     Show More
@@ -42,15 +42,19 @@ const showLess = () => {
 
 <style scoped>
 .toggle-button {
-  margin-top: 10px;
-  padding: 6px 12px;
-  background-color: #79A9D9;
-  color: white;
+  margin-top: 5px;
+  padding: 3px 12px;
+  background-color: #D7DFCF;
+  color: #966A4A;
   border: none;
-  border-radius: 6px;
+  border-radius: 8px;
   cursor: pointer;
+  font-weight: bold; /* 添加此行以加粗字体 */
+  transition: background-color 0.15s ease, transform 0.15s ease; /* 添加过渡效果 */
 }
 .toggle-button:hover {
-  background-color: #117BB2;
+  background-color: #C0CBB7; /* 修改此处，使颜色变深 */
+  transform: scale(1.03);
 }
+
 </style>

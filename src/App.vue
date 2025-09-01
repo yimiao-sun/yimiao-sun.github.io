@@ -6,6 +6,7 @@ import ConfPub from './components/ConfPub.vue'
 import JourPub from './components/JourPub.vue'
 import Selected from './components/Selected.vue'
 import AwardList from './components/AwardList.vue'
+import ServiceList from './components/ServiceList.vue'
 // import SoftwareList from './components/SoftwareList.vue'
 // import TalkList from './components/TalkList.vue'
 import Footer from './components/Footer.vue'
@@ -29,6 +30,8 @@ import Footer from './components/Footer.vue'
   <hr>
   <AwardList />
   <hr>
+  <ServiceList />
+  <hr>
   <!-- <TalkList /> -->
   <!-- <SoftwareList /> -->
 
@@ -37,6 +40,3 @@ import Footer from './components/Footer.vue'
   </footer>
 </template>
 
-<style>
-
-</style>

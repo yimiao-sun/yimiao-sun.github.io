@@ -5,6 +5,13 @@
 @import "./grid.css";
 @import "./position.css";
 
+/* 全页背景色，保证 body 外的间隙（margin）也显示相同背景 */
+html, body {
+    background-color: #ECF0E7;
+    min-height: 100%;
+}
+
+/* 页面主体容器（保留你的 max-width 与居中设置） */
 body {
     max-width: 1000px;
     margin: 40px auto;
@@ -85,35 +92,44 @@ p.note {
 
 .badge:hover {
     cursor: pointer;
+    
 }
 
 .badge-abs {
-    color: #222529c0;
-    background-color: #dfe2e593;
+    color: #23380C;
+    background-color: #D7DFCF;
     /* border: 1.5px solid #222529c0; */
+    transition: background-color 0.15s ease, transform 0.15s ease; /* 添加过渡效果 */
 }
 
 .badge-abs:hover {
-    background-color: #c3c9cf;
+    background-color: #CDD5B8;
+    transform: scale(1.03);
 }
 
 .badge-bib {
-    color: #222529c0;
-    background-color: #dfe2e593;
+    color: #23380C;
+    background-color: #D7DFCF;
+    /* border: 1.5px solid #222529c0; */
+    transition: background-color 0.15s ease, transform 0.15s ease; /* 添加过渡效果 */
 }
 
 .badge-bib:hover {
-    background-color: #c3c9cf;
+    background-color: #CDD5B8;
+    transform: scale(1.03);
 }
 
 
 .badge-slides {
-    color: #222529c0;
-    background-color: #dfe2e593;
+    color: #23380C;
+    background-color: #D7DFCF;
+    /* border: 1.5px solid #222529c0; */
+    transition: background-color 0.15s ease, transform 0.15s ease; /* 添加过渡效果 */
 }
 
 .badge-slides:hover {
-    background-color: #c3c9cf;
+    background-color: #CDD5B8;
+    transform: scale(1.03);
 }
 
 .badge-code {
@@ -126,12 +142,15 @@ p.note {
 }
 
 .badge-video {
-    color: #222529c0;
-    background-color: #dfe2e593;
+    color: #23380C;
+    background-color: #D7DFCF;
+    /* border: 1.5px solid #222529c0; */
+    transition: background-color 0.15s ease, transform 0.15s ease; /* 添加过渡效果 */
 }
 
 .badge-video:hover {
-    background-color: #c3c9cf;
+    background-color: #CDD5B8;
+    transform: scale(1.03);
 }
 
 .badge-demo {
