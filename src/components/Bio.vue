@@ -13,23 +13,28 @@ const description = computed(() => {
   <div class="profile-root">
     <div class="profile-box">
       <div class="profile-left">
-        <h1 class="name">{{ metaContent.name }}</h1>
-        <div class="desc" v-html="description"></div>
+        <!-- 顶部一行：name 在左，icons 在右 -->
+        <div class="top-row">
+          <h1 class="name">{{ metaContent.name }}</h1>
 
-        <div class="contacts" aria-hidden="false">
-          <a
-            v-for="(contact, key) in metaContent.contact"
-            :key="key"
-            :href="contact.url"
-            class="contact-link"
-            :aria-label="key"
-            :title="key"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i :class="contact.icon" aria-hidden="true"></i>
-          </a>
+          <div class="contacts" aria-hidden="false">
+            <a
+              v-for="(contact, key) in metaContent.contact"
+              :key="key"
+              :href="contact.url"
+              class="contact-link"
+              :aria-label="key"
+              :title="key"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i :class="contact.icon" aria-hidden="true"></i>
+            </a>
+          </div>
         </div>
+
+        <!-- 描述放在顶行下面，自动换行 -->
+        <div class="desc" v-html="description"></div>
       </div>
     </div>
 
@@ -68,23 +73,46 @@ const description = computed(() => {
   min-width: 0;
 }
 
-.name {
-  font-size: 16pt;
-  margin: 0 0 8px 0;
-  color: #23380C;
-  line-height: 1.1;
+/* 顶部一行：姓名 + 图标（右对齐） */
+.top-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  margin-bottom: 0px; /* 与 desc 的间距，可按需调整 */
 }
 
+.name {
+  font-size: 16pt;
+  margin: 0;
+  color: #23380C;
+  line-height: 1.1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 描述文字 */
 .desc {
   font-size: 12.5pt;
   color: #23380C;
-  white-space: pre-wrap;
-  word-break: break-word;
 }
 
-/* 缩短 contacts 与上一行的距离（从 12px -> 6px） */
+/* 让 desc 最后一个段落没有下外边距，避免视觉上的尾部空白 */
+.desc p:last-child {
+  margin-bottom: -10px;
+}
+
+/* 有些 markdown 转换器可能会产生 <p>&nbsp;</p> 这样的空段，强制隐藏纯空段落 */
+.desc p:empty,
+.desc p:empty::before {
+  display: none;
+}
+
+/* contacts：与 name 同一行右侧 */
 .contacts {
-  margin-top: -25px;
+  margin-top: 0; /* 已放到顶行，因此不需要负 margin */
   display: flex;
   align-items: center;
   gap: 8px;
@@ -95,7 +123,7 @@ const description = computed(() => {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 60px;
+  width: 44px;   /* 缩小一点以节省水平空间 */
   height: 36px;
   text-decoration: none;
   border-radius: 6px;
@@ -108,7 +136,7 @@ const description = computed(() => {
 /* 默认图标颜色与大小 */
 .contact-link i {
   color: #966A4A; /* 图标颜色 */
-  font-size: 2rem;
+  font-size: 2rem; /* 稍微调整为常规尺寸，避免占太多高度 */
   line-height: 1;
   transition: color 0.12s ease, transform 0.12s ease;
 }
@@ -139,6 +167,7 @@ const description = computed(() => {
   display: block;
 }
 
+/* 小屏时：顶行垂直排列，图标放到 name 下方（更友好） */
 @media (max-width: 600px) {
   .profile-root {
     flex-direction: column;
@@ -151,6 +180,20 @@ const description = computed(() => {
   }
   .profile-photo img {
     height: 100%;
+  }
+
+  .top-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .name {
+    font-size: 18px;
+  }
+
+  .contact-link {
+    width: 44px;
   }
 }
 </style>

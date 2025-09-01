@@ -109,7 +109,7 @@ function copyToClipboard(text, pubId, cslTemplateType) {
       <div class="pub-header" style="color: #23380C;">
         <button v-if="pub.note" class="note-btn">{{ pub.note }}</button>
         <span> "</span>
-        <a style="font-size: 12pt; color: #23380C; text-decoration: underline;" :href="pub.entry.URL" target="_blank">{{ pub.entry.title }}</a>
+        <a style="font-size: 12pt; color: #23380C; -webkit-text-stroke: 0.5px currentColor;" :href="pub.entry.URL" target="_blank">{{ pub.entry.title }}</a>
         <span>". </span><br>
         <span class="pub" style="font-size: 12pt; color: #23380C;" v-html="pub.entry.authors"></span>
         <span>. </span>
