@@ -7,7 +7,7 @@
         "note": "Springer WASA'25",
         "resources": {
             "pdf": "./files/PDF/2025MASS_WASA.pdf",
-            "slides": ""
+            "slides": "./files/Slides/2025MASS_PPT.pdf"
         },
         "abstract": "Wi-Fi human sensing has attracted numerous research studies over the past decade. The rapid advancement of machine learning technology further boosts the development of Wi-Fi human sensing. However, current Wi-Fi human sensing suffers from the \"data scarcity\" problem: all the existing proposals require collecting a large amount of humanbased datasets to train the sensing models, which is labor-intensive and may raise ethical concerns in certain scenarios. This obstacle seriously restricts the size, quality, and diversity of available datasets, thereby affecting the sensing performance in terms of accuracy and cross-domain applicability. In order to solve this problem, we in this paper propose Metasurface-Assisted Sample Synthesis (MASS), a novel approach to synthesize high-fidelity Wi-Fi sensing samples that effectively capture both the essential features of human motion and environment-specific multipath characteristics, without requiring human involvement. The evaluation results show that MASS is effective in augmenting the training set, improving the classification accuracy by 18%, and enhancing the cross-domain sensing accuracy by 22%. These findings underscore the potential of MASS to facilitate the creation of high-quality, diverse datasets with minimal human involvement and associated labor costs."
     },

@@ -39,7 +39,7 @@ const description = computed(() => {
     </div>
 
     <div class="profile-photo">
-      <img src="../assets/photo.jpg" alt="personal photo" />
+      <img src="../assets/photo1.jpg" alt="personal photo" />
     </div>
   </div>
 </template>
