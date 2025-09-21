@@ -58,7 +58,7 @@ const description = computed(() => {
   flex: 1 1 auto;
   background-color: #D7DFCF;
   border-radius: 16px;
-  padding: 18px;
+  padding: 30px;
   box-sizing: border-box;
   display: flex;
   align-items: center;
@@ -128,8 +128,8 @@ const description = computed(() => {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 44px;   /* 缩小一点以节省水平空间 */
-  height: 36px;
+  width: 50px;   /* 缩小一点以节省水平空间 */
+  height: 42px;
   text-decoration: none;
   border-radius: 6px;
   transition: background 0.15s ease, transform 0.12s ease;
@@ -141,7 +141,7 @@ const description = computed(() => {
 /* 默认图标颜色与大小 */
 .contact-link i {
   color: #966A4A; /* 图标颜色 */
-  font-size: 2rem; /* 稍微调整为常规尺寸，避免占太多高度 */
+  font-size: 2.5rem; /* 稍微调整为常规尺寸，避免占太多高度 */
   line-height: 1;
   transition: color 0.12s ease, transform 0.12s ease;
 }

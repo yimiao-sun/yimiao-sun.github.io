@@ -1,0 +1,22 @@
+[
+    {
+        "link": "https://www.youtube.com/watch?v=xMd9ToaNfWc",
+        "note": "Cover Article",
+        "title": "RF Computing: A New Realm of IoT Research",
+        "pub": "JCST'25"
+    },
+
+    {
+        "link": "https://www.youtube.com/watch?v=Ip5eaA2jtvk",
+        "note": "Best Paper Nominee",
+        "title": "Satori: In-band Analog Backscatter for Audio Transmission",
+        "pub": "ACM MobiSys'25"
+    },
+
+    {
+        "link": "https://www.youtube.com/watch?v=VfgFnlOviQQ",
+        "note": "Best Paper Runner-Up",
+        "title": "MicNest: Long-Range Instant Acoustic Localization of Drones in Precise Landing",
+        "pub": "ACM SenSys'22"
+    }
+]

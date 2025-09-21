@@ -7,6 +7,7 @@ import JourPub from './components/JourPub.vue'
 import Selected from './components/Selected.vue'
 import AwardList from './components/AwardList.vue'
 import ServiceList from './components/ServiceList.vue'
+import Highlight from './components/Highlight.vue'
 // import SoftwareList from './components/SoftwareList.vue'
 // import TalkList from './components/TalkList.vue'
 import Footer from './components/Footer.vue'
@@ -21,6 +22,8 @@ import Footer from './components/Footer.vue'
   <NewsList />
   <hr>
   <EducationList />
+  <hr>
+  <Highlight />
   <hr>
   <Selected />
   <hr>

@@ -13,7 +13,7 @@ html, body {
 
 /* 页面主体容器（保留你的 max-width 与居中设置） */
 body {
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 40px auto;
     padding: 0 20px;
 }
@@ -164,11 +164,15 @@ p.note {
 
 .badge-award {
     color: white;
-    background-color: crimson;
+    background-color: #966A4A;
+    /* border: 1.5px solid #222529c0; */
+    transition: background-color 0.15s ease, transform 0.15s ease; /* 添加过渡效果 */
 }
 
 .badge-award:hover {
-    background-color: rgba(220, 20, 60, 0.8);
+    color: white;
+    background-color: #966A4A;
+    transform: scale(1.03);
 }
 
 .badge-home:hover {
