@@ -1,5 +1,4 @@
-[    
-    {
+[       {
         "bibtex": "@article{sun2025survey,\ntitle = {A Survey of mmWave Backscatter: Applications, Platforms, and Technologies},\nauthor = {Sun, Yimiao and He, Yuan and Zou, Yang and Gu, Jiaming and Yang, Xiaolei and Zhang, Jia and Mao, Ziheng},\njournal = {ACM Computing Surveys},\nyear = {2025},\nvolume = {},\nnumber = {},\npages = {}\n}\n",
         "authors": {
             "boldAuthors": ["Yimiao Sun"]
@@ -9,6 +8,17 @@
             "pdf": "./files/PDF/2025CSUR.pdf"
         },
         "abstract": "As a key enabling technology of the Internet of Things (IoT) and 5G communication networks, millimeter wave (mmWave) backscatter has undergone noteworthy advancements and brought significant improvement to prevailing sensing and communication systems. Past few years have witnessed growing efforts in innovating mmWave backscatter transmitters (e.g., tags and metasurfaces) and the corresponding techniques, which provide efficient information embedding and fine-grained signal manipulation for mmWave backscatter technologies. These efforts have greatly enabled a variety of appealing applications, such as long-range localization, roadside-to-vehicle communication, coverage optimization and large-scale identification. In this paper, we carry out a comprehensive survey to systematically summarize the works related to the topic of mmWave backscatter. Firstly, we introduce the scope of this survey and provide a taxonomy to distinguish two categories of mmWave backscatter research based on the operating principle of the backscatter transmitter: modulation-based and relay-based. Furthermore, existing works in each category are grouped and introduced in detail, with their common applications, platforms and technologies, respectively. Finally, we elaborate on potential directions and discuss related surveys in this area."
+    },
+    {
+        "bibtex": "@article{yimiao2025metasurface,\ntitle = {Metasurface-Enabled Multi-Target WiFi Sensing},\nauthor = {Sun, Yimiao and Zhou, Qunyan and Chen, Yulong and Gu, Jiaming and Cheng, Qiang and He, Yuan},\njournal = {IEEE Transactions on Mobile Computing},\nyear = {2025},\nvolume = {},\nnumber = {},\npages = {}\n}\n",
+        "authors": {
+            "boldAuthors": ["Yimiao Sun"]
+        },
+        "note": "IEEE TMC'25",
+        "resources": {
+            "pdf": "./files/PDF/2025SlingShot.pdf"
+        },
+        "abstract": "As an emerging technology, WiFi sensing has garnered widespread attention in recent years. However, due to limitations in WiFi bandwidth and hardware capacity, multi-target sensing with WiFi remains an unresolved issue. In this paper, we present SLINGSHOT, a first-of-its-kind approach for multitargetWiFi sensing enabled by metasurface. SLINGSHOT exploits a metasurface’s ability of beam scanning to periodically scan among targets in a high frequency, so their sensing signals can be separated in the time domain. However, the WiFi-initiated and the metasurface-initiated signals will interfere with each other, which could significantly degrade the sensing accuracy. Moreover, the WiFi devices and the metasurface operate in a distributed manner, so the inherent clock offset and clock drift among them make it difficult to accurately separate the sensing signals of the targets. To address the above challenges, SLINGSHOT leverages the metasurface’s ability of phase shifting to cancel interfering signals and designs a passive clock synchronization scheme to synchronize the metasurface and WiFi devices. We implement SLINGSHOT and evaluate it under various settings. Results show that SLINGSHOT can sense up to 8 targets. Respectively compared to the state-of-the-art methods, SLINGSHOT has 6.75 % higher mean accuracy in activity recognition and 58.34 % lower mean error in respiration monitoring."
     },
     {
         "bibtex": "@article{yimiao2023indoor,\ntitle = {Indoor Drone Localization and Tracking Based on Acoustic Inertial Measurement},\nauthor = {Sun, Yimiao and Wang, Weiguo and Mottola, Luca and Jia, Zhang and Wang, Ruijin and He, Yuan},\njournal = {IEEE Transactions on Mobile Computing},\nyear = {2024},\nvolume = {23},\nnumber = {6},\npages = {7537-7551}\n}\n",
