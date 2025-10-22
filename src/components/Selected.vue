@@ -58,7 +58,7 @@ const showMore = ref(false)
 
 function toggleShowMore() {
   if (showMore.value) {
-    visibleCount.value = 5
+    visibleCount.value = 6
   } else {
     visibleCount.value = pubArr.value.length
   }
@@ -114,6 +114,29 @@ function copyToClipboard(text, pubId, cslTemplateType) {
         <span class="pub" style="font-size: 12pt; color: #23380C;" v-html="pub.entry.authors"></span>
         <span>. </span>
       </div>
+      <div class="pub-controls">
+        <!-- Abstract 和 BibTex 按钮，文本不加粗 -->
+        <a class="badge badge-abs" @click="showFlag[pub.entry.id].abs = !showFlag[pub.entry.id].abs" style="color: #23380C; font-weight: bold;">Abstract</a>
+        <a class="badge badge-bib" @click="showFlag[pub.entry.id].bib = !showFlag[pub.entry.id].bib" style="color: #23380C; font-weight: bold;">BibTex</a>
+        <!-- 其他徽章组件，它们的文本样式由各自组件内部控制，这里只确保链接颜色 -->
+        <SlidesBadge :slidesUrl="pub.resources.pdf" :color="'#23380C'" :font-weight="'bold'"/>
+        <VideoBadge :videoUrl="pub.resources.slides" :color="'#23380C'" :font-weight="'bold'"/>
+        <CodeBadge :codeUrl="pub.resources.code" :color="'#23380C'" :font-weight="'bold'"/>
+        <DemoBadge :demoUrl="pub.resources.demo" :color="'#23380C'" :font-weight="'bold'"/>
+        <HomeBadge :homeUrl="pub.resources.home" :color="'#23380C'" :font-weight="'bold'"/>
+        <AwardBadge :awardUrl="pub.resources.award" :color="'#23380C'" :font-weight="'bold'"/>
+
+        <p class="text-block" v-if="showFlag[pub.entry.id].abs" style="color: #23380C; font-weight: normal;">{{ pub.abstract }}</p>
+
+        <div class="text-block" v-if="showFlag[pub.entry.id].bib">
+          <!-- BibTex 复制按钮，文本不加粗 -->
+          <button class="bib" @click.prevent="copyToClipboard(pub.bibtex, pub.entry.id, 'BibTeX')" style="color: #23380C; font-weight: normal;">Copy BibTeX</button>
+          <button class="bib" @click.prevent="copyToClipboard(pub.acl, pub.entry.id, 'ACL')" style="color: #23380C; font-weight: normal;">Copy ACL</button>
+          <button class="bib" @click.prevent="copyToClipboard(pub.gb7714, pub.entry.id, 'GB/T7714')" style="color: #23380C; font-weight: normal;">Copy GB/T7714</button>
+          <span style="color: #23380C; font-weight: normal;">{{ copyStatus[pub.entry.id] }}</span>
+          <p style="color: #23380C; font-weight: normal;">{{ pub.bibtex }}</p>
+        </div>
+      </div>
     </li>
   </ul>
 
@@ -128,33 +151,27 @@ function copyToClipboard(text, pubId, cslTemplateType) {
   padding-left: 1em; /* 增加左边距以容纳 bullet */
   list-style: disc; /* 使用实心圆点作为 bullet */
   margin: 0;
-  color: #23380C; /* 确保列表项的默认文本颜色 */
+  color: #23380C; /* 确保列表项的默认颜色 */
 }
 
 /* 每条之间的间距 */
 .pub-list li {
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
 
 /* 使 note 显示为按钮样式，参考 Show More 的配色，边框颜色更深 */
 .note-btn {
-  background-color: #CDD5B8; /* 与 show-more-btn 保持一致的背景色 */
+  background-color: #CDD5B8; /* 与 show-more 相近 */
   color: #23380C; /* 修改为 #23380C */
   border: 2px solid #23380C; /* 更深的边框色，与文本颜色一致 */
   padding: 0px 8px;
   border-radius: 9px;
   font-size: 12pt;
-  font-weight: normal; /* 保持加粗 */
+  font-weight: none; /* 保持加粗 */
   cursor: default;
   margin-right: 8px;
   transition: background-color 0.15s ease, transform 0.15s ease;
 }
-/* note-btn 不太需要 hover 效果，因为 cursor 是 default */
-/* .note-btn:hover {
-  background-color: #C0CBB7;
-  transform: scale(1.03);
-} */
-
 
 /* 保持原有的 Show More / Show Less 按钮样式 */
 .show-more-btn {
@@ -165,8 +182,8 @@ function copyToClipboard(text, pubId, cslTemplateType) {
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  font-weight: bold; /* 添加此行以加粗字体 */
-  transition: background-color 0.15s ease, transform 0.15s ease; /* 添加过渡效果 */
+  font-weight: bold; /* 保持加粗 */
+  transition: background-color 0.15s ease, transform 0.15s ease;
 }
 .show-more-btn:hover {
   background-color: #C0CBB7; /* 修改此处，使颜色变深 */
@@ -179,6 +196,12 @@ function copyToClipboard(text, pubId, cslTemplateType) {
   color: #23380C; /* 确保 pub-header 内部的默认文本颜色正确 */
 }
 
-/* 之前 ConfPub.vue 中的 pub-controls 和 bib 样式在这里似乎不适用，因为相关的元素已移除。
-   如果未来需要，请根据实际内容重新添加或调整。*/
+.pub-controls {
+  margin-top: 6px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
 </style>
