@@ -1,5 +1,5 @@
 [       {
-        "bibtex": "@article{sun2025survey,\ntitle = {A Survey of mmWave Backscatter: Applications, Platforms, and Technologies},\nauthor = {Sun, Yimiao and He, Yuan and Zou, Yang and Gu, Jiaming and Yang, Xiaolei and Zhang, Jia and Mao, Ziheng},\njournal = {ACM Computing Surveys},\nyear = {2025},\nvolume = {},\nnumber = {},\npages = {}\n}\n",
+        "bibtex": "@article{sun2025survey,\ntitle = {A Survey of mmWave Backscatter: Applications, Platforms, and Technologies},\nauthor = {Sun, Yimiao and He, Yuan and Zou, Yang and Gu, Jiaming and Yang, Xiaolei and Zhang, Jia and Mao, Ziheng},\njournal = {ACM Computing Surveys},\nyear = {2025},\nvolume = {57},\nnumber = {9},\npages = {1-36}\n}\n",
         "authors": {
             "boldAuthors": ["Yimiao Sun"]
         },
@@ -58,7 +58,7 @@
         "abstract": "We present Acoustic Inertial Measurement (AIM), a one-of-a-kind technique for indoor drone localization and tracking. Indoor drone localization and tracking are arguably a crucial, yet unsolved challenge: in GPS-denied environments, existing approaches enjoy limited applicability, especially in Non-Line of Sight (NLoS), require extensive environment instrumentation, or demand considerable hardware/software changes on drones. In contrast, AIM exploits the acoustic characteristics of the drones to estimate their location and derive their motion, even in NLoS settings. We tame location estimation errors using a dedicated Kalman filter and the Interquartile Range rule (IQR). We implement AIM using an off-the-shelf microphone array and evaluate its performance with a commercial drone under varied settings. Results indicate that the mean localization error of AIM is 46% lower than commercial UWB-based systems in complex indoor scenarios, where state-of-the-art infrared systems would not even work because of NLoS settings. We further demonstrate that AIM can be extended to support indoor spaces with arbitrary ranges and layouts without loss of accuracy by deploying distributed microphone arrays."
     },
     {
-        "bibtex": "@article{sun2025exploiting,\ntitle = {Exploiting Dispersion Effect of Signals for Accurate Indoor WiFi Localization},\nauthor = {Sun, Yimiao and He, Yuan and Zhang, Jiacheng and Na, Xin and Chen, Yande and Wang, Weiguo and Guo, Xiuzhen},\njournal = {ACM Transactions on Sensor Networks},\nyear = {2025},\nvolume = {},\nnumber = {},\npages = {}\n}\n",
+        "bibtex": "@article{sun2025exploiting,\ntitle = {Exploiting Dispersion Effect of Signals for Accurate Indoor WiFi Localization},\nauthor = {Sun, Yimiao and He, Yuan and Zhang, Jiacheng and Na, Xin and Chen, Yande and Wang, Weiguo and Guo, Xiuzhen},\njournal = {ACM Transactions on Sensor Networks},\nyear = {2025},\nvolume = {21},\nnumber = {3},\npages = {1-21}\n}\n",
         "authors": {
             "boldAuthors": ["Yimiao Sun"]
         },

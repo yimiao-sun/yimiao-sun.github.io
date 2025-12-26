@@ -2,9 +2,8 @@
 [
     {
         "category": "Honors", "list": [
-            {"date": "ACM Transactions on Internet of Things", "content": "Distinguished Reviewer"},
-            {"date": "IEEE Transactions on Mobile Computing", "content": "Reviewer"},
-            {"date": "IEEE Internet of Things Journal", "content": "Reviewer"}
+            {"date": "Distinguished Reviewer", "content": "ACM Transactions on Internet of Things"},
+            {"date": "Reviewer", "content": "IEEE Transactions on Mobile Computing | IEEE Internet of Things Journal | Tsinghua Science and Technology | IEEE Communications Letters"}
         ]
     }
 ]

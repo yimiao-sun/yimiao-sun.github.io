@@ -1,5 +1,5 @@
 [{
-        "bibtex": "@article{gu2025towards,\ntitle = {Towards Metasurface-Assisted Sample Synthesis for Wi-Fi Human Sensing},\nauthor = {Gu, Jiaming and Chen, Shaonan and Xie, Yadong and Xi, Rui and He, Yuan and Cheng, Qiang},\njournal = {IEEE Internet of Things Journal},\nyear = {2025},\nvolume = {},\nnumber = {},\npages = {}\n}\n",
+        "bibtex": "@article{gu2025towards,\ntitle = {Towards Metasurface-Assisted Sample Synthesis for Wi-Fi Human Sensing},\nauthor = {Gu, Jiaming and Chen, Shaonan and Xie, Yadong and Xi, Rui and He, Yuan and Cheng, Qiang},\njournal = {IEEE Internet of Things Journal},\nyear = {2025},\nvolume = {12},\nnumber = {24},\npages = {52207-52216}\n}\n",
         "authors": {
             "boldAuthors": ["Yimiao Sun"]
         },
