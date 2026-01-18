@@ -20,7 +20,10 @@
         "resources": {
             "pdf": "./files/PDF/2025Satori_MobiSys.pdf",
             "slides": "./files/Slides/2025Satori_PPT.pdf",
-            "award": "https://www.sigmobile.org/mobisys/2025/accepted_papers/"
+            "award": {
+                "url": "https://www.sigmobile.org/mobisys/2025/accepted_papers/",
+                "label": "Best Paper Nominee Award"
+                }
         },
         "abstract": "In IoT applications such as environmental monitoring and industrial security surveillance, audio sensors are increasingly used, among which wireless sensors are preferred. In order to achieve a sustained transmission, low-power wireless technology such as backscatter has been widely considered. However, existing backscatter systems encounter difficulties in audio transmissions due to the high power consumption from the complicated digital processing and fast frequency-shifting clocks. In this paper, we propose Satori, the first-of-its-kind in-band analog backscatter system for audio transmission with ultra-low power consumption. Satori eliminates the need for in-place digital processing by directly embedding analog audio voltages into backscattered WiFi symbols through analog modulation. It also avoids the power consumption of the frequency-shifting clock by transmitting the audio within the excitation WiFi signal's frequency band. We implement the Satori prototype and evaluate it under various settings. The experimental results indicate that Satori achieves audio transmission with a SNR greater than 18 dB. Meanwhile, the ASIC solution consumes only 9.3μW, 3.3× lower than the existing backscatter systems for audio transmission."
     },
@@ -169,7 +172,10 @@
             "slides": "./files/Slides/2022MicNest_PPT.pdf",
             "code": null,
             "home": "https://micnest.github.io/",
-            "award": "https://sensys.acm.org/2022/award/"
+            "award": {
+                "url": "https://sensys.acm.org/2022/award/",
+                "label": "Best Paper Runner-Up Award"
+                }
         },
         "abstract": "We present MicNest: an acoustic localization system enabling precise landing of aerial drones. Drone landing is a crucial step in a drone's operation, especially as high-bandwidth wireless networks, such as 5G, enable beyond-line-of-sight operation in a shared airspace and applications such as instant asset delivery with drones gain traction. In MicNest, multiple microphones are deployed on a landing platform in carefully devised configurations. The drone carries a speaker transmitting purposefully-designed acoustic pulses. The drone may be localized as long as the pulses are correctly detected. Doing so is challenging: i) because of limited transmission power, propagation attenuation, background noise, and propeller interference, the Signal-to-Noise Ratio (SNR) of received pulses is intrinsically low; ii) the pulses experience non-linear Doppler distortion due to the physical drone dynamics while airborne; iii) as location information is to be used during landing, the processing latency must be reduced to effectively feed the flight control loop. To tackle these issues, we design a novel pulse detector, Matched Filter Tree (MFT), whose idea is to convert pulse detection to a tree search problem. We further present three practical methods to accelerate tree search jointly. Our real-world experiments show that MicNest is able to localize a drone 120 m away with 0.53% relative localization error at 20 Hz location update frequency."
     }

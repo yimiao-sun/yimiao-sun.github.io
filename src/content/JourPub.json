@@ -27,7 +27,11 @@
         },
         "note": "JCST'25",
         "resources": {
-            "pdf": "./files/PDF/2025RFComputing.pdf"
+            "pdf": "./files/PDF/2025RFComputing.pdf",
+            "award": {
+                "url": "https://jcst.ict.ac.cn/en/article/2025/4",
+                "label": "Cover Article"
+                }
         },
         "abstract": "Current Internet of Things (IoT) systems encounter substantial challenges in realizing ubiquitous sensing and connectivity, characterized by constrained sensing coverage, prohibitive deployment costs, and energy inefficiencies inherent in conventional digital-centric architectures. This paper presents RF Computing, an innovative paradigm that exploits radio frequency (RF) signals to simultaneously serve as information carriers and computational operands. By enabling direct information processing through RF signal manipulation in the RF domain, RF Computing effectively bypasses the limitations of traditional digital systems, delivering exceptional energy efficiency and superior performance characteristics. We provide a systematic definition of RF Computing, classify its operational modalities, and showcase representative applications that highlight its transformative potential. The existing research landscape is organized into three principal categories: information injection, transformation, and augmentation. Furthermore, we delineate critical open challenges, including the development of unified theoretical models, RF resource management strategies, analog-digital co-design methodologies, and programming frameworks for RF Computing systems. Finally, we propose promising directions to propel this emerging field forward."
     },    
@@ -137,7 +141,11 @@
         },
         "note": "IEEE TMC'24",
         "resources": {
-            "pdf": "./files/PDF/2023MicNest_TMC.pdf"
+            "pdf": "./files/PDF/2023MicNest_TMC.pdf",
+            "award": {
+                "url": "https://www.workercn.cn/c/2024-11-22/8398409.shtml",
+                "label": "Capital Frontier Academic Achievement"
+                }
         },
         "abstract": "We present MicNest : an acoustic localization system enabling precise drone landing. In MicNest , multiple microphones are deployed on a landing platform in carefully devised configurations. The drone carries a speaker transmitting purposefully-designed acoustic pulses. The drone may be localized as long as the pulses are correctly detected. Doing so is challenging: i) because of limited transmission power, propagation attenuation, background noise, and propeller interference, the Signal-to-Noise Ratio (SNR) of received pulses is intrinsically low; ii) the pulses experience non-linear Doppler distortion due to the physical drone dynamics; iii) as location information is used during landing, the processing latency must be reduced to effectively feed the flight control loop. To tackle these issues, we design a novel pulse detector, Matched Filter Tree (MFT), whose idea is to convert pulse detection to a tree search problem. We further present three practical methods to accelerate tree search jointly. Our experiments show that MicNest can localize a drone 120 m away with 0.53% relative localization error at 20 Hz location update frequency. For navigating drone landing, MicNest can achieve a success rate of 94 %. The average landing error (distance between landing point and target point) is only 4.3 cm."
     },
@@ -170,7 +178,11 @@
         },
         "note": "IEEE COMST'23",
         "resources": {
-            "pdf": "./files/PDF/2023mmWave_COMST.pdf"
+            "pdf": "./files/PDF/2023mmWave_COMST.pdf",
+            "award": {
+                "url": "https://yimiao-sun.github.io/",
+                "label": "ESI Highly Cited Paper"
+                }
         },
         "abstract": "With the rapid development of the Internet of Things (IoT) and the rise of 5G communication networks and automatic driving, millimeter wave (mmWave) sensing is emerging and starts impacting our life and workspace. mmWave sensing can sense humans and objects in a contactless way, providing fine-grained sensing ability. In the past few years, many mmWave sensing techniques have been proposed and applied in various human sensing applications (e.g., human localization, gesture recognition, and vital monitoring). We discover the need of a comprehensive survey to summarize the technology, platforms and applications of mmWave-based human sensing. In this survey, we first present the mmWave hardware platforms and some key techniques of mmWave sensing. We then provide a comprehensive review of existing mmWave-based human sensing works. Specifically, we divide existing works into four categories according to the sensing granularity: human tracking and localization, motion recognition, biometric measurement and human imaging. Finally, we discuss the potential research challenges and present future directions in this area."
     }

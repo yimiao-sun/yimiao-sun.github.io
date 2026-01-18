@@ -124,7 +124,7 @@ function copyToClipboard(text, pubId, cslTemplateType) {
         <CodeBadge :codeUrl="pub.resources.code" :color="'#23380C'" :font-weight="'bold'"/>
         <DemoBadge :demoUrl="pub.resources.demo" :color="'#23380C'" :font-weight="'bold'"/>
         <HomeBadge :homeUrl="pub.resources.home" :color="'#23380C'" :font-weight="'bold'"/>
-        <AwardBadge :awardUrl="pub.resources.award" :color="'#23380C'" :font-weight="'bold'"/>
+        <AwardBadge :award="pub.resources.award" :color="'#23380C'" :font-weight="'bold'"/>
 
         <p class="text-block" v-if="showFlag[pub.entry.id].abs" style="color: #23380C; font-weight: normal;">{{ pub.abstract }}</p>
 
