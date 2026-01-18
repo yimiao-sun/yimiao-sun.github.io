@@ -53,12 +53,12 @@ const pubArr = computed(() => {
 })
 
 // 控制显示数量
-const visibleCount = ref(6)
+const visibleCount = ref(8)
 const showMore = ref(false)
 
 function toggleShowMore() {
   if (showMore.value) {
-    visibleCount.value = 6
+    visibleCount.value = 8
   } else {
     visibleCount.value = pubArr.value.length
   }
