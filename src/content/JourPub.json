@@ -1,4 +1,16 @@
-[{
+[
+    {
+        "bibtex": "@article{gu2025towards,\ntitle = {Backscatter Meets Audio: A Step Toward RF Computing},\nauthor = {Zou, Yang and Na, Xin and Sun, Yimiao and Chen, Yande and He, Yuan},\njournal = {GetMobile: Mobile Computing and Communications},\nyear = {2026},\nvolume = {29},\nnumber = {4},\npages = {25–30}\n}\n",
+        "authors": {
+            "boldAuthors": ["Yimiao Sun"]
+        },
+        "note": "ACM GetMobile'26",
+        "resources": {
+            "pdf": "./files/PDF/2026Satori_GetMobile.pdf"
+        },
+        "abstract": "Passive Internet of Things (Passive IoT) has attracted widespread attention from both academia and industry due to its potential for ubiquitous deployment and round-theclock operation without the need for dedicated power sources. As a key enabling technology for Passive IoT, backscatter communication has been an active research area for over a decade and has achieved remarkable progress. We have witnessed the feasibility of implementing backscatter communication using various ambient energy sources, with the communication range continuously extending from a few meters to reliably transmitting data over distances of more than one kilometer."
+    },    
+    {
         "bibtex": "@article{gu2025towards,\ntitle = {Towards Metasurface-Assisted Sample Synthesis for Wi-Fi Human Sensing},\nauthor = {Gu, Jiaming and Chen, Shaonan and Sun, Yimiao and Xie, Yadong and Xi, Rui and He, Yuan and Cheng, Qiang},\njournal = {IEEE Internet of Things Journal},\nyear = {2025},\nvolume = {12},\nnumber = {24},\npages = {52207-52216}\n}\n",
         "authors": {
             "boldAuthors": ["Yimiao Sun"]
