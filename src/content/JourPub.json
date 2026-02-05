@@ -1,5 +1,16 @@
 [
     {
+        "bibtex": "@article{sun2026metasurface,\ntitle = {Metasurface-Enabled Multi-Target WiFi Sensing},\nauthor = {Sun, Yimiao and Zhou, Qunyan and Chen, Yulong and Gu, Jiaming and Cheng, Qiang and He, Yuan},\njournal = {IEEE Transactions on Mobile Computing},\nyear = {2026},\nvolume = {25},\nnumber = {3},\npages = {3985-3997}\n}\n",
+        "authors": {
+            "boldAuthors": ["Yimiao Sun"]
+        },
+        "note": "IEEE TMC'26",
+        "resources": {
+            "pdf": "./files/PDF/2025SlingShot_TMC.pdf"
+        },
+        "abstract": "As an emerging technology, WiFi sensing has garnered widespread attention in recent years. However, due to limitations in WiFi bandwidth and hardware capacity, multi-target sensing with WiFi remains an unresolved issue. In this paper, we present SLINGSHOT, a first-of-its-kind approach for multitargetWiFi sensing enabled by metasurface. SLINGSHOT exploits a metasurface’s ability of beam scanning to periodically scan among targets in a high frequency, so their sensing signals can be separated in the time domain. However, the WiFi-initiated and the metasurface-initiated signals will interfere with each other, which could significantly degrade the sensing accuracy. Moreover, the WiFi devices and the metasurface operate in a distributed manner, so the inherent clock offset and clock drift among them make it difficult to accurately separate the sensing signals of the targets. To address the above challenges, SLINGSHOT leverages the metasurface’s ability of phase shifting to cancel interfering signals and designs a passive clock synchronization scheme to synchronize the metasurface and WiFi devices. We implement SLINGSHOT and evaluate it under various settings. Results show that SLINGSHOT can sense up to 8 targets. Respectively compared to the state-of-the-art methods, SLINGSHOT has 6.75 % higher mean accuracy in activity recognition and 58.34 % lower mean error in respiration monitoring."
+    },    
+    {
         "bibtex": "@article{gu2025towards,\ntitle = {Backscatter Meets Audio: A Step Toward RF Computing},\nauthor = {Zou, Yang and Na, Xin and Sun, Yimiao and Chen, Yande and He, Yuan},\njournal = {GetMobile: Mobile Computing and Communications},\nyear = {2026},\nvolume = {29},\nnumber = {4},\npages = {25–30}\n}\n",
         "authors": {
             "boldAuthors": ["Yimiao Sun"]
@@ -20,17 +31,6 @@
             "pdf": "./files/PDF/2025MASS_IoTJ.pdf"
         },
         "abstract": "Wi-Fi human sensing has attracted numerous research studies over the past decade. The rapid advancement of machine learning technology further boosts the development of Wi-Fi human sensing. However, current Wi-Fi human sensing suffers from the “data scarcity” problem: all the existing proposals require collecting a large amount of human-based datasets to train the sensing models, which is laborintensive and may raise ethical concerns in certain scenarios. This obstacle seriously restricts the size, quality, and diversity of available datasets, thereby affecting the sensing performance in terms of accuracy and cross-domain applicability. In order to solve this problem, we in this paper propose Metasurface-Assisted Sample Synthesis (MASS), a novel approach to synthesize high-fidelity Wi-Fi sensing samples that effectively capture both the essential features of human motion and environment-specific multipath characteristics without requiring human involvement. The evaluation results show that MASS is effective in boosting machine learning performance, improving classification accuracy by 18%, and enhancing the cross-domain sensing accuracy by 22%. We further analyze inherent synthesis distortions stemming from hardware limitations and introduce a mitigation technique, which significantly enhances data fidelity, achieving 91.8% accuracy even when training exclusively on synthesized samples. These findings underscore the potential of MASS to facilitate the creation of high-quality, diverse datasets with minimal human involvement and associated labor costs."
-    },    
-    {
-        "bibtex": "@article{sun2025metasurface,\ntitle = {Metasurface-Enabled Multi-Target WiFi Sensing},\nauthor = {Sun, Yimiao and Zhou, Qunyan and Chen, Yulong and Gu, Jiaming and Cheng, Qiang and He, Yuan},\njournal = {IEEE Transactions on Mobile Computing},\nyear = {2025},\nvolume = {},\nnumber = {},\npages = {}\n}\n",
-        "authors": {
-            "boldAuthors": ["Yimiao Sun"]
-        },
-        "note": "IEEE TMC'25",
-        "resources": {
-            "pdf": "./files/PDF/2025SlingShot_TMC.pdf"
-        },
-        "abstract": "As an emerging technology, WiFi sensing has garnered widespread attention in recent years. However, due to limitations in WiFi bandwidth and hardware capacity, multi-target sensing with WiFi remains an unresolved issue. In this paper, we present SLINGSHOT, a first-of-its-kind approach for multitargetWiFi sensing enabled by metasurface. SLINGSHOT exploits a metasurface’s ability of beam scanning to periodically scan among targets in a high frequency, so their sensing signals can be separated in the time domain. However, the WiFi-initiated and the metasurface-initiated signals will interfere with each other, which could significantly degrade the sensing accuracy. Moreover, the WiFi devices and the metasurface operate in a distributed manner, so the inherent clock offset and clock drift among them make it difficult to accurately separate the sensing signals of the targets. To address the above challenges, SLINGSHOT leverages the metasurface’s ability of phase shifting to cancel interfering signals and designs a passive clock synchronization scheme to synchronize the metasurface and WiFi devices. We implement SLINGSHOT and evaluate it under various settings. Results show that SLINGSHOT can sense up to 8 targets. Respectively compared to the state-of-the-art methods, SLINGSHOT has 6.75 % higher mean accuracy in activity recognition and 58.34 % lower mean error in respiration monitoring."
     },    
     {
         "bibtex": "@article{he2025rf,\ntitle = {RF Computing: A New Realm of IoT Research},\nauthor = {He, Yuan and Sun, Yimiao and Guo, Xiuzhen},\njournal = {Journal of Computer Science and Technology},\nyear = {2025},\nvolume = {40},\nnumber = {4},\npages = {1-16}\n}\n",
