@@ -59,7 +59,7 @@
         "note": "EWSN'24",
         "resources": {
             "pdf": "./files/PDF/2024RFinder_EWSN.pdf",
-            "slides": "./files/Slides/2024_RFinder_PPT.pdf"
+            "slides": "./files/Slides/2024RFinder_PPT.pdf"
         },
         "abstract": "This paper presents RFinder, a handheld RFID localization system that can accurately localize an in-concrete RFID tag. Such a system facilitates RFID applications in construction quality control. However, the challenge we meet in designing such a system is to achieve accurate RFID localization in a compact (e.g., with only one antenna) and mobile form. To solve this problem, we opportunistically combine the sensing ability of the RFID and the Inertial Measurement Unit (IMU) sensor that is widely embedded in most handheld RFID readers. Specifically, the user just needs to hold the handheld device and move it in the air. The movement of the device causes changes in 1) RFID measurement phase, and 2) motion sensor data (e.g., acceleration) captured by IMU. We find that if the tag’s direction relative to the tag is almost not changed, it is possible to establish a correlation between the velocity calculated from acceleration and that of the RFID phase, thereby enabling us to localize the tag’s AoA without the precise position of the antenna. We build a signal preprocessing and matching workflow to better fuse the two kinds of data. Experiments show that RFinder can achieve an 11° 3D AoA estimation accuracy at the range of 2.5m."
     },
