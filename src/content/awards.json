@@ -1,6 +1,7 @@
 [
     {
         "category": "Honors", "list": [
+            {"date": "[2026.05]", "content": "Beijing Outstanding Graduate, Beijing Municipal Education Commission | 北京市优秀毕业生"},            
             {"date": "[2026.01]", "content": "GetMobile Research Highlights, ACM GetMobile 2026"},
             {"date": "[2025.12]", "content": "National Scholarship, Ministry of Education | 博士研究生国家奖学金"},
             {"date": "[2025.06]", "content": "Best Paper Nominee Award (<u>Top 2 out of all 233 submissions</u>), ACM MobiSys 2025"},
@@ -10,7 +11,7 @@
             {"date": "[2023.10]", "content": "GetMobile Research Highlights, ACM GetMobile 2023"},
             {"date": "[2022.11]", "content": "The Third Class Scholarship, Tsinghua University | 清华大学三等奖学金"},
             {"date": "[2022.10]", "content": "Best Paper Runner-Up Award (<u>Top 2 out of all 209 submissions</u>), ACM SenSys 2022"},
-            {"date": "[2021.04]", "content": "Outstanding university graduate (<u>Top 3% in this year</u>), Sichuan Government | 四川省优秀毕业生"},
+            {"date": "[2021.04]", "content": "Sichuan Outstanding Graduate (<u>Top 3% in this year</u>), Sichuan Government | 四川省优秀毕业生"},
             {"date": "[2020.12]", "content": "UESTC Outstanding Students (<u>Top 10 out of all 4446 students</u>), UESTC | 成电杰出学生"},
             {"date": "[2020.09]", "content": "ACM Outstanding Students, ACM Chengdu Chapter | ACM优秀大学生"},
             {"date": "[2020.12]", "content": "National Scholarship (<u>Top 1 out of all 127 students</u>), Ministry of Education | 国家奖学金"},

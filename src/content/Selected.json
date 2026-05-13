@@ -30,7 +30,7 @@
         "note": "ACM MobiSys'25",
         "resources": {
             "pdf": "./files/PDF/2025Satori_MobiSys.pdf",
-            "slides": "./files/Slides/2025Satori_PPT.pdf",
+            "slides": "./files/Slides/2025Satori_slides.pdf",
             "award": {
                 "url": "https://www.sigmobile.org/mobisys/2025/accepted_papers/",
                 "label": "Best Paper Nominee Award"
@@ -87,7 +87,7 @@
         "note": "ACM SenSys'23",
         "resources": {
             "pdf": "./files/PDF/2023BIFROST_SenSys.pdf",
-            "slides": "./files/Slides/2023BIFROST_PPT.pdf"
+            "slides": "./files/Slides/2023BIFROST_slides.pdf"
         },
         "abstract": "WiFi-based device localization is a key enabling technology for smart applications, which has attracted numerous research studies in the past decade. Most of the existing approaches rely on Line-of-Sight (LoS) signals to work, while a critical problem is often neglected: In the real-world indoor environments, WiFi signals are everywhere, but very few of them are usable for accurate localization. As a result, the localization accuracy in practice is far from being satisfactory. This paper presents BIFROST, a novel hardware-software co-design for accurate indoor localization. The core idea of BIFROST is to reinvent WiFi signals, so as to provide sufficient LoS signals for localization. This is realized by exploiting the dispersion effect of signals emitted by the leaky wave antenna (LWA). We present a low-cost plug-in design of LWA that can generate orthogonal polarized signals: On one hand, LWA disperses signals of different frequencies to different angles, thus providing Angle-of-Arrival (AoA) information for the localized target. On the other hand, the target further leverages the antenna polarization mismatch to distinguish AoAs from different LWAs. In the software layer, fine-grained information in Channel State Information (CSI) is exploited to cope with multipath and noise. We implement BIFROST and evaluate its performance under various settings. The results show that the median localization error of BIFROST is 0.81m, which is 52.35% less than that of SpotFi, a state-of-the-art approach. SpotFi, when combined with BIFROST to work in the realistic settings, can reduce the localization error by 33.54%."
     },
@@ -99,7 +99,7 @@
         "note": "ACM SenSys'22",
         "resources": {
             "pdf": "./files/PDF/2022AIM_SenSys.pdf",
-            "slides": "./files/Slides/2022AIM_PPT.pdf",
+            "slides": "./files/Slides/2022AIM_slides.pdf",
             "code": null,
             "demo": null
         },
@@ -128,7 +128,7 @@
         "note": "ACM SenSys'22",
         "resources": {
             "pdf": "./files/PDF/2022MicNest_SenSys.pdf",
-            "slides": "./files/Slides/2022MicNest_PPT.pdf",
+            "slides": "./files/Slides/2022MicNest_slides.pdf",
             "code": null,
             "home": "https://micnest.github.io/",
             "award": {
@@ -156,8 +156,8 @@
         },
         "note": "ACM MobiCom'25",
         "resources": {
-            "pdf": "./files/PDF/xxx.pdf",
-            "slides": "./files/Slides/xxx.pdf"
+            "pdf": "./files/PDF/2025QuinID_MobiCom.pdf",
+            "slides": "./files/Slides/2025QuinID_slides.pdf"
         },
         "abstract": "Parallelizing passive Radio Frequency Identification (RFID) reading is an arguably crucial, yet unsolved challenge in modern IoT applications. Existing approaches remain limited to time-division operations and fail to read multiple tags simultaneously. In this paper, we introduce QuinID, the first frequency-division multiple access (FDMA) RFID system to achieve fully parallel reading. We innovatively exploit the frequency selectivity of the tag antenna rather than a conventional digital FDMA, bypassing the power and circuitry constraint of RFID tags. Specifically, we delicately design the frequency-selective antenna based on surface acoustic wave (SAW) components to achieve extreme narrow-band response, so that QuinID tags (i.e., QuinTags) operate exclusively within their designated frequency bands. By carefully designing the matching network and canceling various interference, a customized QuinReader communicates simultaneously with multiple QuinTags across distinct bands. QuinID maintains high compatibility with commercial RFID systems and presents a tag cost of less than 10 cents. We implement a 5-band QuinID system and evaluate its performance under various settings. The results demonstrate a fivefold increase in read rate, reaching up to 5000 reads per second."
     },
@@ -169,7 +169,7 @@
         "note": "ACM MobiCom'23",
         "resources": {
             "pdf": "./files/PDF/2023MetaSpeaker_MobiCom.pdf",
-            "slides": "./files/Slides/2023MetaSpeaker_PPT.pdf"
+            "slides": "./files/Slides/2023MetaSpeaker_slides.pdf"
         },
         "abstract": "This paper proposes Meta-Speaker, an innovative speaker capable of projecting audible sources into the air with a high level of manipulability. Unlike traditional speakers that emit sound waves in all directions, Meta-Speaker can manipulate the granularity of the audible region, down to a single point, and can manipulate the location of the source. Additionally, the source projected by Meta-Speaker is a physical presence in space, allowing both humans and machines to perceive it with spatial awareness. Meta-Speaker achieves this by leveraging the fact that air is a nonlinear medium, which enables the reproduction of audible sources from ultrasounds. Meta-Speaker comprises two distributed ultrasonic arrays, each transmitting a narrow ultrasonic beam. The audible source can be reproduced at the intersection of the beams. We present a comprehensive profiling of Meta-Speaker to validate the high manipulability it offers. We prototype Meta-Speaker and demonstrate its potential through three applications: anchor-free localization with a median error of 0.13 m, location-aware communication with a throughput of 1.28 Kbps, and acoustic augmented reality where users can perceive source direction with a mean error of 9.8 degrees."
     }
