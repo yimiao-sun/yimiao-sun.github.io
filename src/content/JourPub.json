@@ -1,5 +1,16 @@
 [
     {
+        "bibtex": "@article{sun2026metasurface,\ntitle = {Protecting WiFi Human Sensing Against Eavesdropping Via RIS-Enabled Physical Mask},\nauthor = {Sun, Yimiao and Chen, Shaonan and Liu, Yu and Gu, Jiaming and Xie, Yadong and Zou, Yang},\njournal = {IEEE Transactions on Mobile Computing},\nyear = {2026},\nvolume = {},\nnumber = {},\npages = {}\n}\n",
+        "authors": {
+            "boldAuthors": ["Yimiao Sun"]
+        },
+        "note": "IEEE TMC'26",
+        "resources": {
+            "pdf": "./files/PDF/2026RISec_TMC.pdf"
+        },
+        "abstract": "WiFi signals inherently carry rich information about their surroundings, which inevitably provides eavesdroppers with opportunities to infer private information. Scrambling these signals has proven as an effective method to thwart eavesdropping, but existing approaches achieving signal scrambling either require modifying standard WiFi hardware or degrade legitimate sensing performance. In this paper, we propose RISEC, a hardware–software co-design that leverages a reconfigurable intelligent surface (RIS) to protect WiFi-based human sensing. At its core, RISEC fully exploits the RIS's channel programmability to apply random phase modulation to scramble WiFi signals and distort the corresponding sensing information. Such random modulation functions as a dynamic physical mask in the channel. We delicately devise the mask in time and spatial domains to ensure sufficient signal scrambling. Besides, we also encode essential parameters in the mask to help legitimate users uncover the mask and reverse the scrambling. Further, by using our dedicated algorithm, legitimate users can accurately recover sensing information from the superposition of RIS-initiated and Tx-initiated signals. We implement RISEC and evaluate it under various settings. Results show that RISEC significantly reduces an eavesdropper's sensing accuracy to around random-guess levels in password inference (from 94.82% down to 0.25%) and activity recognition (from 92.38% down to 19.36%), respectively."
+    },    
+    {
         "bibtex": "@article{sun2026metasurface,\ntitle = {Metasurface-Enabled Multi-Target WiFi Sensing},\nauthor = {Sun, Yimiao and Zhou, Qunyan and Chen, Yulong and Gu, Jiaming and Cheng, Qiang and He, Yuan},\njournal = {IEEE Transactions on Mobile Computing},\nyear = {2026},\nvolume = {25},\nnumber = {3},\npages = {3985-3997}\n}\n",
         "authors": {
             "boldAuthors": ["Yimiao Sun"]
