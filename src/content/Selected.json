@@ -1,6 +1,6 @@
 [       
     {
-        "bibtex": "@article{sun2026metasurface,\ntitle = {Protecting WiFi Human Sensing Against Eavesdropping Via RIS-Enabled Physical Mask},\nauthor = {Sun, Yimiao and Chen, Shaonan and Liu, Yu and Gu, Jiaming and Xie, Yadong and Zou, Yang},\njournal = {IEEE Transactions on Mobile Computing},\nyear = {2026},\nvolume = {},\nnumber = {},\npages = {}\n}\n",
+        "bibtex": "@article{sun2026metasurface,\ntitle = {Protecting WiFi Human Sensing Against Eavesdropping Via RIS-Enabled Physical Mask},\nauthor = {Sun, Yimiao and Chen, Shaonan and Liu, Yu and Gu, Jiaming and Xie, Yadong and Zou, Yang and Cheng, Qiang and He, Yuan},\njournal = {IEEE Transactions on Mobile Computing},\nyear = {2026},\nvolume = {},\nnumber = {},\npages = {}\n}\n",
         "authors": {
             "boldAuthors": ["Yimiao Sun"]
         },
