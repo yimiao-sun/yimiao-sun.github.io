@@ -1,5 +1,16 @@
 [
     {
+        "bibtex": "@article{zou2026wifi,\ntitle = {WiFi Backscatter for Audio Transmission with In-band Analog Modulation},\nauthor = {Zou, Yang and Na, Xin and Sun, Yimiao and Chen, Yande and He, Yuan},\njournal = {IEEE/ACM Transactions on Networking},\nyear = {2026},\nvolume = {},\nnumber = {},\npages = {}\n}\n",
+        "authors": {
+            "boldAuthors": ["Yimiao Sun"]
+        },
+        "note": "IEEE/ACM ToN'26",
+        "resources": {
+            "pdf": "./files/PDF/2026Satori_TON.pdf"
+        },
+        "abstract": "In IoT applications such as environmental monitoring and industrial security surveillance, audio sensors are increasingly used, among which wireless sensors are preferred. To achieve a sustained transmission, low-power wireless technology such as backscatter has been widely considered. However, existing backscatter systems encounter difficulties in audio transmissions due to the high power consumption from the complicated digital processing and fast frequency-shifting clocks. In this paper, we propose Satori, the first-of-its-kind in-band analog backscatter system for audio transmission with ultra-low power consumption. Satori eliminates the need for in-place digital processing by directly embedding analog audio voltages into backscattered WiFi symbols through analog modulation. It also avoids the power consumption of the frequency-shifting clock by transmitting the audio within the excitation WiFi signal’s band. We implement the Satori prototype and evaluate it under various settings. The results indicate that Satori can transmit audio at a sampling rate of 41.67 kHz and achieve a SNR exceeding 18 dB."
+    },    
+    {
         "bibtex": "@article{sun2026metasurface,\ntitle = {Protecting WiFi Human Sensing Against Eavesdropping Via RIS-Enabled Physical Mask},\nauthor = {Sun, Yimiao and Chen, Shaonan and Liu, Yu and Gu, Jiaming and Xie, Yadong and Zou, Yang and Cheng, Qiang and He, Yuan},\njournal = {IEEE Transactions on Mobile Computing},\nyear = {2026},\nvolume = {},\nnumber = {},\npages = {}\n}\n",
         "authors": {
             "boldAuthors": ["Yimiao Sun"]

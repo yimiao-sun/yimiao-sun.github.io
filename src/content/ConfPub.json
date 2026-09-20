@@ -1,5 +1,18 @@
 [
     {
+        "bibtex": "@inproceedings{hao2026sarliquid,\ntitle = {SpectraX: Analog OFDM Modulation for Backscatter Based on Resistive Crossbar},\nauthor = {Zou, Yang and He, Yuan and Liu, Junyang and Sun, Yimiao and Liu, Yunhao},\nbooktitle = {Proceedings of the ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems (SenSys)}, \nyear = {2026}\n}\n",
+        "authors": {
+            "boldAuthors": ["Yimiao Sun"]
+        },
+        "note": "ACM/IEEE SenSys'26",
+        "resources": {
+            "pdf": "./files/PDF/2026SpectraX_SenSys.pdf",
+            "slides": "./files/Slides/2026SpectraX_slides.pdf"
+        },
+        "abstract": "Enabling standard OFDM modulation on backscatter tags is a crucial but challenging task in passive IoT. Existing approaches either bypass the complex OFDM modulation process, resulting in non-standard OFDM signals, or digitally generate standard OFDM waveforms with high power consumption. We in this paper propose SpectraX, an analog OFDM modulation method for backscatter based on the resistive crossbar. Our insight is that in the OFDM modulation process, the most computation-intensive operation is matrix computation, which can be done in the analog domain. With matrix values stored as crossbar resistances, input voltages drive a physical weighted-accumulation process, which mirrors matrix computation and produces currents as results. We further mitigate parasitic-induced latency by alternating computation and readout, and avoid distortion by optimizing the linear operating region of analog devices. The SpectraX prototype supports OFDM modulation of IEEE 802.11ah and IEEE 802.15.4g, achieving a goodput of 91.7% of the theoretical maximum data rate, while the ASIC solution reduces power consumption by 65.9% compared to the digital methods."
+    },
+
+    {
         "bibtex": "@inproceedings{hao2026sarliquid,\ntitle = {SARLiquid: Through-package Liquid Leakage Detection based on mmWave SAR Imaging},\nauthor = {Hao, Zhanjun and Zhao, Changlong and Sun, Yimiao and Wang, Yuejiao and Wang, Guowei and He, Yuan},\nbooktitle = {Proceedings of the ACM Network and Operating System Support for Digital Audio and Video (NOSSDAV)}, \nyear = {2025}\n}\n",
         "authors": {
             "boldAuthors": ["Yimiao Sun"]
