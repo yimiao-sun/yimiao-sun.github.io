@@ -7,8 +7,8 @@
         "pub": "CCF Chip Conference'26"
     },
     {
-        "type": "youtube",
-        "link": "https://www.youtube.com/watch?v=xMd9ToaNfWc",
+        "type": "local",
+        "link": "files/Video/JCST.mp4",
         "note": "Cover Article",
         "title": "RF Computing: A New Realm of IoT Research",
         "pub": "JCST'25"
