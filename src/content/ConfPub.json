@@ -1,6 +1,6 @@
 [
     {
-        "bibtex": "@inproceedings{hao2026sarliquid,\ntitle = {SpectraX: Analog OFDM Modulation for Backscatter Based on Resistive Crossbar},\nauthor = {Zou, Yang and He, Yuan and Liu, Junyang and Sun, Yimiao and Liu, Yunhao},\nbooktitle = {Proceedings of the ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems (SenSys)}, \nyear = {2026}\n}\n",
+        "bibtex": "@inproceedings{zou2026spectrax,\ntitle = {SpectraX: Analog OFDM Modulation for Backscatter Based on Resistive Crossbar},\nauthor = {Zou, Yang and He, Yuan and Liu, Junyang and Sun, Yimiao and Liu, Yunhao},\nbooktitle = {Proceedings of the ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems (SenSys)}, \nyear = {2026}\n}\n",
         "authors": {
             "boldAuthors": ["Yimiao Sun"]
         },

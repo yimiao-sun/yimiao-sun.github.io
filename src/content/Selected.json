@@ -1,5 +1,16 @@
 [       
     {
+        "bibtex": "@article{sun2026dianzi,\ntitle = {基于时空编码超表面天线谐波调控的多目标活动感知},\nauthor = {Sun, Yimiao and Ye, Haoran and Li, Huidong and Xie, Yadong and Cheng, Qiang and He, Yuan},\njournal = {电子学报},\nyear = {2026},\nvolume = {},\nnumber = {},\npages = {}\n}\n",
+        "authors": {
+            "boldAuthors": ["Yimiao Sun"]
+        },
+        "note": "电子学报'26",
+        "resources": {
+            "pdf": "./files/PDF/2026电子学报.pdf"
+        },
+        "abstract": "随着智能感知需求的持续增长，活动感知已经应用在多种场景中。无线感知技术凭借非接触和隐私友好等优势，成为了实现活动感知的主要技术之一。不过受限于信号带宽和感知设备的能力，多目标活动感知在目前仍然是一个开放问题。无线信号被不同的感知目标反射后会在接收端处相互叠加。无线感知系统所具备的无线信号的带宽和感知设备的硬件能力往往受限，所以很难直接将这些混叠的信号区分开。已有的研究方法在接收端利用信号处理技术对混叠的信号进行分解，或是将智能手机放在感知目标周围，并通过手机获取的近场信道变化来感知不同目标。但是这些方法通常要求不同目标的反射信号之间具有足够的差异，或是感知性能受限于设备的硬件和能力。本文提出了一种基于超表面天线的多目标感知方法RISecho。RISecho利用超表面天线将入射信号转换为多个谐波波束，这些波束的频率和传播方向耦合。谐波波束在分别照射到不同的感知目标后，就将不同目标的感知信息分离在了不同频率的信号中。接收端收到谐波信号后，可以直接在频域上分离这些信号，并提取其中的感知信息。针对目标方向未知的问题，RISecho采用了目标发现算法。超表面天线会生成周期性的扫描波束。接收端提取每个方向上的多普勒变化，并据此判断每个方向上是否存在目标。超表面天线根据判断的结果，为感知目标分配谐波。针对旁瓣干扰，RISecho优化超表面天线的时空调制编码来降低旁瓣增益。接收端再利用干扰抑制算法处理谐波信号。RISecho根据不同谐波的频率差值对多普勒频移进行校正后，再利用感知神经网络对目标的活动状态进行识别。在不同实验设置下的结果显示，RISecho可以同时感知4个目标，而且活动识别的准确率达到了94.37%，相比于基线方法提升了13.48%。当接收端位于超表面天线的非视距区域内时，RISecho的活动识别准确率比基线方法高30%以上。在多个感知目标同时存在的情况下，目标检测的平均准确率都保持在96%以上。 "
+    },  
+    {
         "bibtex": "@article{sun2026metasurface,\ntitle = {Protecting WiFi Human Sensing Against Eavesdropping Via RIS-Enabled Physical Mask},\nauthor = {Sun, Yimiao and Chen, Shaonan and Liu, Yu and Gu, Jiaming and Xie, Yadong and Zou, Yang and Cheng, Qiang and He, Yuan},\njournal = {IEEE Transactions on Mobile Computing},\nyear = {2026},\nvolume = {25},\nnumber = {11},\npages = {22225-22236}\n}\n",
         "authors": {
             "boldAuthors": ["Yimiao Sun"]
